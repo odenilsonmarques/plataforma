@@ -25,3 +25,8 @@
       color: #fff;
       font-size: 18px;
   }
+
+  .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 22px;
+}

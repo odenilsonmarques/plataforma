@@ -30,18 +30,88 @@
           <li><a href="#">Praias</a></li>
         </ul>  
       </div>
-    </div><br/>
-  </nav>
+    </div>
 
-  <div class="container">
+    <div class="jumbotron text-center" style="background-color:#3CB371;">
+             <h2 style="color:#FFF;"> Secretaria Municipal do Ambiente </h2>
+             <h3  style="color:#FFF;">Departamento de Educação Ambiental</h3>
+        </div>
+  </nav><br/>
+
+  <div class="container text-center">    
     <div class="row">
       <div class="col-sm-12">
-        <div class="jumbotron">
-              Educação Ambiental
-        </div>
+      <h2 style="color:#3CB371;"><b>Quem somos</b></h2>
+        A plataforma surge através do Departamento de Educação Ambiental da Secretaria Municipal do Ambiente – SEMAM, 
+        para informação de ações e projetos de Educação Ambiental desenvolvido pela secretaria.
       </div>
     </div>
+    <hr>
+    <div class="row">
+    <div class="col-sm-2">
+      <div class="thumbnail" style="border:1px solid #3CB371" >
+        <a href="#">
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>AÇÕES</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="thumbnail" style="border:1px solid #3CB371" >
+        <a href="#">
+          <img src="/assets/img/img3.jpg" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>PROJETOS</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-2" >
+      <div class="thumbnail" style="border:1px solid #3CB371">
+        <a href="#">
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>PALESTRAS</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="thumbnail" style="border:1px solid #3CB371" >
+        <a href="#">
+          <img src="/assets/img/praia.jpg" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>PRAIS</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="thumbnail" style="border:1px solid #3CB371" >
+        <a href="#">
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>CURIOSIDADES</p>
+          </div>
+        </a>
+      </div>
+    </div>     
+    <div class="col-sm-2">
+      <div class="thumbnail" style="border:1px solid #3CB371" >
+        <a href="#">
+          <img src="/assets/img/falesia.jpg" class="img-responsive" style="width:100%" alt="Image">
+          <div class="caption">
+            <p>FALÉSIA</p>
+          </div>
+        </a>
+      </div>
+    </div> 
+  </div><hr>
   </div>
+
+ 
 
   <div class="container">
     <div class="row">
