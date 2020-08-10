@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default" style="background-color:#3CB371">
+  <nav class="navbar navbar-default" style="background-color:#77cc6d">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -31,12 +31,66 @@
         </ul>  
       </div>
     </div>
-    <div class="jumbotron text-center" style="background-color:#3CB371;">
+    <div class="jumbotron text-center" style="background-color:#77cc6d;">
       <h2 style="color:#FFF;"> Secretaria Municipal do Ambiente </h2>
       <h3  style="color:#FFF;">Departamento de Educação Ambiental</h3>
     </div>
-  </nav><br/>
-  <div class="container text-center">    
+  </nav>
+  
+
+  <div class="container" style="background-color:none;">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
+      </ol>
+  
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/falesia.jpg')}}">
+          </div>  
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/falesia.jpg')}}">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/falesia.jpg')}}">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/falesia.jpg')}}">
+          </div>   
+        </div>
+
+        <div class="item">
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/praia.jpg')}}">
+          </div>   
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/praia.jpg')}}">
+          </div>   
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/praia.jpg')}}">
+          </div>    
+          <div class=" col-sm-3 ">
+            <img src="{{('/assets/img/praia.jpg')}}">
+          </div>  
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+    
+<div class="container text-center">    
     <div class="row">
       <div class="col-sm-12">
         <h2 style="color:#3CB371;"><b>Quem somos</b></h2>
@@ -45,83 +99,6 @@
       </div>
     </div>
   </div><hr>
-  
-  <div class="container">
-    <div class="col-sm-12">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-        </ol>
-
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image" >
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-            
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image">
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image">
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-          </div>
-
-          <div class="item">
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image">
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-            
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image">
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-
-            <div class="col-sm-4">
-              <img src="{{('/assets/img/img4.jpg')}}" alt="Image">
-              <div class="carousel-caption">
-                <h3>Dia da árvore</h3>
-                <p>Palestra</p>
-              </div>
-            </div>  
-          </div>
-        </div>
-
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-</div>
-    
 
 
 
