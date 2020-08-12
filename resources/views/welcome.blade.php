@@ -39,47 +39,92 @@
     <div id="demo" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active">
-          <div class="col-sm-3" style="border-radius:15px">
-            <img src="{{('/assets/img/falesia.jpg')}}" style="">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">AÇÕES</p>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle">
           </div>  
-          <div class="col-sm-3" style="border-radius:15px" >
-            <img src="{{('/assets/img/falesia.jpg')}}" style="">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">PROJETOS</p>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle">
           </div>
-          <div class="col-sm-3" style="border-radius:15px">
-            <img src="{{('/assets/img/falesia.jpg')}}" style="">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">AÇÕES</p>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-circle">
           </div>  
-          <div class="col-sm-3" style="border-radius:15px" >
-            <img src="{{('/assets/img/falesia.jpg')}}" style="">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">PROJETOS</p>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-circle"><br><br>
           </div>
+          <h3 class="text-center">Palestra Dia da Árvore</h3> 
         </div>
 
         <div class="item">
-          <div class="col-sm-3" >
-            <img src="{{('/assets/img/falesia.jpg')}}" style="border:none">
-            <p class="text-center" style="background-color: #64a0d4;font-size:17px;color:#FFF">AÇÕES</p>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/falesia.jpg')}}" style="none">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">PROJETOS</p>
+            <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/falesia.jpg')}}" style="border:none">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">PALESTRAS</p>
+            <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/falesia.jpg')}}" style="border:none">
-            <p class="text-center" style="background-color:#64a0d4;font-size:17px;color:#FFF">PRAIAS</p>
-          </div>   
+            <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle"><br><br>
+          </div>
+          <h3 class="text-center">Praia Legal é Praia Limpa</h3> 
+        </div>
+
+        <div class="item">
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle">
+          </div>  
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"><br><br>
+          </div>
+          <h3 class="text-center">Conexão Sustentabilidade</h3> 
+        </div>
+
+        <div class="item">
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle">
+          </div>  
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"><br><br>
+          </div>
+          <h3 class="text-center">Doação de Mudas</h3> 
+        </div>
+
+        <div class="item">
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle">
+          </div>  
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-3">
+            <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"><br><br>
+          </div>
+          <h3 class="text-center">Hora do Planeta</h3> 
         </div>
       </div><br><br><br>
       <!-- Indicators -->
-      <ol class="carousel-indicators"style="border:none">
+      <ol class="carousel-indicators"class="img-responsive img-circle">
         <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="0" class="active"></li>
         <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="1"></li>
+        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="2"></li>
+        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="3"></li>
+        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="4"></li>
       </ol>
     </div>
   </div>
