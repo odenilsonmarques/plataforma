@@ -21,7 +21,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right" style="color:#FFF">
-          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Quem somos</a></li>
           <li><a href="#">Missão</a></li>
           <li><a href="#">Visão</a></li>
           <li><a href="#">Curiosidades</a></li>
@@ -120,11 +120,11 @@
       </div><br><br><br>
       <!-- Indicators -->
       <ol class="carousel-indicators"class="img-responsive img-circle">
-        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="1"></li>
-        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="2"></li>
-        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="3"></li>
-        <li data-target="#demo" style="background-color:#64a0d4;" data-slide-to="4"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="3"></li>
+        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="4"></li>
       </ol>
     </div>
   </div>
@@ -132,13 +132,30 @@
     <div class="container-fluid" style="background-color:#64a0d4;border:none">    
       <div class="container"> 
         <div class="row"><br>
-          <div class="col-sm-12 text-center">
-            <h2 style="color:#FFF"><b>Quem somos</b></h2><br>
-              <p style="font-size:18px;color:#FFF">
-                A Secretaria Municipal do Ambiente de São José de Ribamar- SEMAM tem por finalidade através do Departamento 
-                de Educação Ambiental realizar projetos e ações socioambientais para promover a sensibilização e preservação 
-                do meio ambiente e dos recursos naturais, voltada à população do nosso Município.
+          <div class="col-sm-4 text-center">
+            <h2 style="color:#FFF"><b>Sobre</b></h2><br>
+              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
+              A Secretaria Municipal do Ambiente de São José de Ribamar-SEMAM tem por finalidade através do Departamento de Educação Ambiental realizar projetos e ações socioambientais para promover a sensibilização e preservação do meio ambiente e dos recursos naturais, voltada à população do nosso Município
               </p><br><br><br><br>
+              <img src="{{('/assets/img/ecologia.png')}}" style="text-align:center" width="150px"><br><br><br><br>
+              <br><br>
+          </div>
+          <div class="col-sm-4 text-center">
+            <h2 style="color:#FFF"><b>Missão</b></h2><br>
+              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
+              Temos a missão de proteger, conservar e recuperar o meio ambiente, promovendo o desenvolvimento sustentável com responsabilidade socio ambiental, incentivando ações e programas que visam à preservação e conservação de recursos naturais e qualidade de vida, tendo a Educação Ambiental como forma de mudança comportamental da população acerca da preservação do ambiente.
+              </p><br>
+              <img src="{{('/assets/img/missao.png')}}" style="text-align:center" width="150px"><br><br><br><br>
+          </div>
+          <div class="col-sm-4 text-center">
+            <h2 style="color:#FFF"><b>Visão</b></h2><br>
+              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
+                Hoje a Secretaria Municipal do Ambiente- SEMAM é formada por uma equipe de Técnicos, Analista, Fiscais, Setor Jurídico, 
+                que procuram oferecer suporte na área de Controle, Fiscalização e Proteção Ambiental, almeja ser reconhecida como modelo 
+                de Secretaria de Meio Ambiente, no que diz respeito às ações socioambientais e na promoção das políticas públicas voltadas à 
+                preservação de recursos naturais e desenvolvimento sustentável.
+              </p>
+              <img src="{{('/assets/img/oportunidade.png')}}" style="text-align:center" width="150px"><br><br><br><br>
           </div>
         </div> 
       </div>
