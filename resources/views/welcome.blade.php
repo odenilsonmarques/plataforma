@@ -44,86 +44,86 @@
       <div class="carousel-inner">
         <div class="item active">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle">
+            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-circle"><br><br>
+            <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-rounded"><br><br>
           </div>
           <h3 class="text-center">Palestra Dia da Árvore</h3> 
         </div>
 
         <div class="item">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle"><br><br>
+            <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-rounded"><br><br>
           </div>
           <h3 class="text-center">Praia Legal é Praia Limpa</h3> 
         </div>
 
         <div class="item">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"><br><br>
+            <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-rounded"><br><br>
           </div>
           <h3 class="text-center">Conexão Sustentabilidade</h3> 
         </div>
 
         <div class="item">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"><br><br>
+            <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-rounded"><br><br>
           </div>
           <h3 class="text-center">Doação de Mudas</h3> 
         </div>
 
         <div class="item">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-rounded">
           </div>  
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle">
+            <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"><br><br>
+            <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-rounded"><br><br>
           </div>
           <h3 class="text-center">Hora do Planeta</h3> 
         </div>
       </div><br><br><br>
       <!-- Indicators -->
-      <ol class="carousel-indicators"class="img-responsive img-circle">
+      <ol class="carousel-indicators"class="img-responsive ">
         <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
         <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
         <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
@@ -162,40 +162,66 @@
           </div>
         </div>
       </div>
-    </div><br><br><br>
+    </div><br>
 
-    <div class="container-fluid" style="background-color:#77cc6d;border:none" id="acoes">   
-
+    <div class="container-fluid" style="color:#FFF;border:none" id="acoes">   
       <div class="container"> 
-        <h2 class="text-center" style="color:#FFF">Nossas Ações</h2>
-        <div class="row"><br>
-          <div class="col-sm-4 text-center">
-            <img src="{{('/assets/img/ecologia.png')}}" style="text-align:center" width="80px">
-            <h2 style="color:#FFF"><b>Sobre</b></h2>
-              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
-              A Secretaria Municipal do Ambiente de São José de Ribamar-SEMAM tem por finalidade através do Departamento de Educação Ambiental realizar projetos e ações socioambientais para promover a sensibilização e preservação do meio ambiente e dos recursos naturais, voltada à população do nosso Município
-              </p>
+        <div class="row">
+          <h2 class="text-center" style="color:#77cc6d">Nossas Ações</h2>
+          <div class="col-sm-4">
+            <div class="thumbnail"  style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%">
+              <div class="caption">
+                <h4 class="text-center" style="color:#77cc6d"><strong>Doação de Mudas</strong></h4>
+              </div>
+            </div>
+          </div>  
+          <div class="col-sm-4">
+            <div class="thumbnail" style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%">
+              <div class="caption">
+                <h4 class="text-center" style="color:#77cc6d"><strong>Dia da Água</strong></h4>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-4 text-center">
-            <img src="{{('/assets/img/missao.png')}}" style="text-align:center" width="80px">
-            <h2 style="color:#FFF"><b>Missão</b></h2>
-              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
-              Temos a missão de proteger, conservar e recuperar o meio ambiente, promovendo o desenvolvimento sustentável com responsabilidade socio ambiental, incentivando ações e programas que visam à preservação e conservação de recursos naturais e qualidade de vida, tendo a Educação Ambiental como forma de mudança comportamental da população acerca da preservação do ambiente.
-              </p>
+          <div class="col-sm-4">
+            <div class="thumbnail" style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%">
+              <div class="caption">
+                <h4 class="text-center"  style="color:#77cc6d"><strong>Palestras Educativas</strong></h4>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="thumbnail" style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%" >
+              <div class="caption">
+                <h4 class="text-center"  style="color:#77cc6d"><strong>Oficinas</strong></h4>
+              </div>
+            </div>
+          </div>  
+          <div class="col-sm-4">
+            <div class="thumbnail" style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%">
+              <div class="caption">
+                <h4 class="text-center" style="color:#77cc6d"><strong>Semana Mundial do Meio Ambiente</strong></h4>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-4 text-center">
-            <img src="{{('/assets/img/oportunidade.png')}}" style="text-align:center" width="80px">
-            <h2 style="color:#FFF"><b>Visão</b></h2>
-              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
-                Hoje a Secretaria Municipal do Ambiente- SEMAM é formada por uma equipe de Técnicos, Analista, Fiscais, Setor Jurídico, 
-                que procuram oferecer suporte na área de Controle, Fiscalização e Proteção Ambiental, almeja ser reconhecida como modelo 
-                de Secretaria de Meio Ambiente, no que diz respeito às ações socioambientais e na promoção das políticas públicas voltadas à 
-                preservação de recursos naturais e desenvolvimento sustentável.
-              </p>
-          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail" style="border:1px solid #77cc6d">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive" width="100%">
+              <div class="caption">
+                <h4 class="text-center"  style="color:#77cc6d"><strong>Dia da árvore</strong></h4>
+              </div>
+            </div>
+          </div>  
         </div>
       </div>
-    </div>
+    </div><br><br><br>
 
     <footer class="container-fluid text-center">
       <p>Footer Text</p>
