@@ -40,7 +40,7 @@
       <div class="carousel-inner">
         <div class="item active">
           <div class="col-sm-3">
-            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle">
+            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive ">
           </div>  
           <div class="col-sm-3">
             <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle">
