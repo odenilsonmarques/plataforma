@@ -228,7 +228,7 @@
         <h2 class="text-left" style="color:#64a0d4">Projetos</h2><br>
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+            <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
           </div>
           <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Parque Natural  Municipal da Quinta</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
@@ -237,23 +237,23 @@
           </div> 
           <div class="row">
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
         </div><br>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+            <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
           </div>
           <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
@@ -262,91 +262,91 @@
           </div> 
           <div class="row">
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img40.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-          </div>   
-        </div><br>
-
-        <div class="row">
-          <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
-          </div>
-          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-             Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-          </div> 
-          <div class="row">
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
         </div><br>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+            <img src="{{('/assets/img/img60.jpg')}}"   class="img-responsive img-rounded" width="100%">
           </div>
-          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
+          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Ribamar Mais Verde</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
              Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
           </div> 
           <div class="row">
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img61.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img62.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img59.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
         </div><br>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+            <img src="{{('/assets/img/img58.jpg')}}"   class="img-responsive img-rounded" width="100%">
           </div>
-          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
+          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Recuperação de Nascente e Monitoramento do Rio da Prata</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
              Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
           </div> 
           <div class="row">
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img55.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
               <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img2.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
+              </div>
+          </div>   
+        </div><br>
+
+        <div class="row">
+          <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+            <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
+          </div>
+          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Educação Ambiental nas Escolas</p>
+            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
+            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
+             Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
+          </div> 
+          <div class="row">
+              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+                <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive img-rounded" width="100%">
+              </div>
+              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+                <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive img-rounded" width="100%">
+              </div>
+              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+                <img src="{{('/assets/img/img48.jpg')}}"   class="img-responsive img-rounded" width="100%">
+              </div>
+              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+                <img src="{{('/assets/img/img49.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
         </div><br>
