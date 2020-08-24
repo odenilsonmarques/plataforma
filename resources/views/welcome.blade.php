@@ -226,31 +226,57 @@
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
       <div class="container"> 
         <h2 class="text-left" style="color:#64a0d4">Projetos</h2><br>
-        <div class="row">
-          <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-            <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
-          </div>
-          <div class="col-sm-9" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Parque Natural  Municipal da Quinta</p>
+        <div class="row" id="slide">
+          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+            <div class="carousel slide" id="myCarousel">
+              <div class="carousel-inner">
+                <div class="active item" data-slide-number="0">
+                  <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="item" data-slide-number="1">
+                  <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="item" data-slide-number="2">
+                  <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="item" data-slide-number="3">
+                  <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="item" data-slide-number="4">
+                  <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>                                       
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>                                       
+              </a>   
+            </div>
+          </div> 
+          
+          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-             Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-          </div> 
-          <div class="row">
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+            <div class="row">
+              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
-              <div class="col-sm-2" style="color:#64a0d4;text-align:justify">
+              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
-          </div>   
-        </div><br>
-
+            </div>
+          </div> 
+        </div>        
+        <br>
+        <hr>
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
             <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -274,7 +300,7 @@
                 <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
-        </div><br>
+        </div><br> <hr>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
@@ -299,7 +325,7 @@
                 <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
-        </div><br>
+        </div><br><hr>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
@@ -324,7 +350,7 @@
                 <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
           </div>   
-        </div><br>
+        </div><br><hr>
 
         <div class="row">
           <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
