@@ -378,6 +378,16 @@
         </div><br>
       </div>
     </div>
+    <script>
+      jQuery(document).ready(function($) {
+ 
+ $('#myCarousel').carousel({
+         interval: 5000
+ });
+
+ 
+});
+    </script>
 
     <footer class="container-fluid text-center">
       <p>Footer Text</p>
