@@ -172,7 +172,7 @@
           <div class="col-sm-4">
             <div class="thumbnail"  style="none">
               <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center" style="color:#64a0d4"><strong>Doação de Mudas</strong></h4>
               </div>
             </div>
@@ -180,7 +180,7 @@
           <div class="col-sm-4">
             <div class="thumbnail" style="none">
               <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center" style="color:#64a0d4"><strong>Dia da Água</strong></h4>
               </div>
             </div>
@@ -188,7 +188,7 @@
           <div class="col-sm-4">
             <div class="thumbnail" style="none">
               <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center"  style="color:#64a0d4"><strong>Palestras Educativas</strong></h4>
               </div>
             </div>
@@ -199,7 +199,7 @@
           <div class="col-sm-4">
             <div class="thumbnail" style="none">
               <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%" >
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center"  style="color:#64a0d4"><strong>Oficinas</strong></h4>
               </div>
             </div>
@@ -207,7 +207,7 @@
           <div class="col-sm-4">
             <div class="thumbnail" style="none">
               <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center" style="color:#64a0d4"><strong>Semana Mundial do Meio Ambiente</strong></h4>
               </div>
             </div>
@@ -215,7 +215,7 @@
           <div class="col-sm-4">
             <div class="thumbnail" style="none">
               <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption">
+              <div class="caption text-center">
                 <h4 class="text-center"  style="color:#64a0d4"><strong>Dia da árvore</strong></h4>
               </div>
             </div>
@@ -311,7 +311,7 @@
           <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/>
             <div class="row">
               <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -364,7 +364,7 @@
           <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Ribamar Mais Verde</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
             <div class="row">
               <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -416,7 +416,7 @@
           <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Recuperação de Nascente e Monitoramento do Rio da Prata</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
             <div class="row">
               <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -468,7 +468,7 @@
           <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Educação Ambiental nas Escolas</p>
             Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
             "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
             <div class="row">
               <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -482,11 +482,9 @@
               <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                 <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
               </div>
-            </div>
+            </div><br>
           </div> 
         </div>        
-        <br>
-        <hr>
       </div>
     </div>
 
@@ -494,14 +492,9 @@
     <!--------------------------------------------------------------------------->
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#64a0d4" id="praias">   
       <div class="container"> 
-      <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Praias</h2><br>
+       <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Nossas Praias</h2><br>
         <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#myCarousepraias" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousepraias" data-slide-to="1"></li>
-          </ol>
-          <!-- Wrapper for slides -->
+          
           <div class="carousel-inner">
             <div class="item active">
               <div class="col-md-4" >
@@ -510,62 +503,68 @@
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div> 
-              </div>
+                <div class="caption text-center text-center">
+                  <h3   style="color:#FFF" ><strong>Praia de Panaquantira</strong></h3>
+                   <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"> <span class="glyphicon glyphicon-map-marker btn-lg" style="text-align:center"></span><br>Localização</a>
+                </div>
+              </div> 
               <div class="col-md-4" >
                 <div class="">
                   <a href="#" >
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div> 
-              </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
+                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                </div>
+              </div> 
               <div class="col-md-4" >
                 <div class="">
                   <a href="#" >
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div> 
-              </div>        
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
+                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                </div>
+              </div>       
             </div>
             <div class="item ">
-              <div class="col-md-4">
+              <div class="col-md-4" >
                 <div class="">
                   <a href="#" >
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div>   
-              </div>
-              <div class="col-md-4">
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
+                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                </div>
+              </div> 
+              <div class="col-md-4" >
                 <div class="">
                   <a href="#" >
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div>   
-              </div>
-              <div class="col-md-4">
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
+                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                </div>
+              </div> 
+              <div class="col-md-4" >
                 <div class="">
                   <a href="#" >
                     <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
                   </a>
                 </div>
-                <div class="carousel-caption">
-                  <h3>Praia de Panaquantira</h3>
-                </div>   
-              </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
+                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                </div>
+              </div> 
             </div>
             <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -575,11 +574,11 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
-          </div>
+          </div><br><br><br><br>
         </div>
-      </div><br><br><br><br><br><br>
+      </div>
     </div>
-
+   
     <!--------------------------------------------------------------------------->
 
     <script>
