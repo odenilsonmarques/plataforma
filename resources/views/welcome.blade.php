@@ -19,6 +19,7 @@
             <span class="icon-bar"></span>                              
           </button>
           <a class="navbar-brand" href="#header">Educação<br>Ambiental</a>
+          
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" >
           <ul class="nav navbar-nav navbar-right" style="color:#FFF">
@@ -27,7 +28,7 @@
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#">Praias</a></li>
             <li><a href="#">Curiosidades</a></li>
-          </ul>  
+          </ul>
         </div>
       </div><br>
     </nav>
@@ -134,7 +135,7 @@
   
     <div class="container-fluid" style="background-color:#64a0d4;border:none" id="quemSomos">    
       <div class="container"> 
-      <h2 class="text-left" style="color:#FFF">Quem Somos</h2><br>
+      <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Quem Somos</h2><br>
         <div class="row"><br>
           <div class="col-sm-4 text-center">
             <img src="{{('/assets/img/ecologia.png')}}" style="text-align:center" width="80px">
@@ -166,7 +167,7 @@
 
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="acoes">   
       <div class="container"> 
-      <h2 class="text-left" style="color:#FFF">Nossas Ações</h2><br>
+      <h2 class="text-left" style="color:#FFF;font-family: Fantasy">Nossas Ações</h2><br>
         <div class="row">
           <div class="col-sm-4">
             <div class="thumbnail"  style="none">
@@ -225,7 +226,7 @@
 
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
       <div class="container"> 
-        <h2 class="text-left" style="color:#64a0d4">Projetos</h2><br>
+        <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy">Projetos</h2><br>
         <div class="row" id="slide">
           <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
             <div class="carousel slide" id="myCarouselPMDQ">
