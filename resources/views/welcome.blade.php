@@ -26,7 +26,7 @@
             <li><a href="#quemSomos">Quem somos</a></li>
             <li><a href="#acoes">Ações</a></li>
             <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#">Praias</a></li>
+            <li><a href="#praias">Praias</a></li>
             <li><a href="#">Curiosidades</a></li>
           </ul>
         </div>
@@ -247,10 +247,10 @@
                   <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarouselPMDQ" role="button" data-slide="prev">
+              <a class="left carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>                                       
               </a>
-              <a class="right carousel-control" href="#myCarouselPMDQ" role="button" data-slide="next">
+              <a class="right carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>                                       
               </a>   
             </div>
@@ -299,10 +299,10 @@
                   <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarouselPPL" role="button" data-slide="prev">
+              <a class="left carousel-control" href="myCarousepraiasPPL" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>                                       
               </a>
-              <a class="right carousel-control" href="#myCarouselPPL" role="button" data-slide="next">
+              <a class="right carousel-control" href="myCarousepraiasPPL" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>                                       
               </a>   
             </div>
@@ -352,10 +352,10 @@
                   <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarouselPRMV" role="button" data-slide="prev">
+              <a class="left carousel-control" href="myCarousepraiasPRMV" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>                                       
               </a>
-              <a class="right carousel-control" href="#myCarouselPRMV" role="button" data-slide="next">
+              <a class="right carousel-control" href="myCarousepraiasPRMV" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>                                       
               </a>   
             </div>
@@ -404,10 +404,10 @@
                   <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarouselRN" role="button" data-slide="prev">
+              <a class="left carousel-control" href="myCarousepraiasRN" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>                                       
               </a>
-              <a class="right carousel-control" href="#myCarouselRN" role="button" data-slide="next">
+              <a class="right carousel-control" href="myCarousepraiasRN" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>                                       
               </a>   
             </div>
@@ -456,10 +456,10 @@
                   <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarouselEAE" role="button" data-slide="prev">
+              <a class="left carousel-control" href="myCarousepraiasEAE" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>                                       
               </a>
-              <a class="right carousel-control" href="#myCarouselEAE" role="button" data-slide="next">
+              <a class="right carousel-control" href="myCarousepraiasEAE" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>                                       
               </a>   
             </div>
@@ -489,9 +489,87 @@
         <hr>
       </div>
     </div>
+
+
+    <!--------------------------------------------------------------------------->
+    <div id="myCarousepraias" class="carousel slide" data-ride="carousel" >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousepraias" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousepraias" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="item active">
+
+              <div class="col-md-4">
+                  <div class="">
+                      <a href="#" >
+                          <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                          <img src="{{('/assets/img/img6.jpg')}}"  alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="">
+                      <a href="#">
+                          <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                          <img src="{{('/assets/img/img6.jpg')}}"  alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="">
+                      <a href="#">
+                          <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                          <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                      </a>
+                  </div>
+              </div>
+          </div>    
+          <div class="item ">
+            <div class="col-md-4">
+                <div class="">
+                    <a href="#" >
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="">
+                    <a href="#">
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="">
+                    <a href="#">
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                        <img src="{{('/assets/img/img6.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                    </a>
+                </div>
+            </div>
+        </div>               
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousepraias" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+    <!--------------------------------------------------------------------------->
+
     <script>
       jQuery(document).ready(function($){
-          $('#myCarouselPMDQ').carousel({
+          $('myCarousepraiasPMDQ').carousel({
                   interval: 4000
           });
         });
