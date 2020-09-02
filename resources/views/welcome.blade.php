@@ -27,7 +27,7 @@
             <li><a href="#acoes">Ações</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#praias">Praias</a></li>
-            <li><a href="#">Curiosidades</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
           </ul>
         </div>
       </div><br>
@@ -490,7 +490,7 @@
 
 
     <!--------------------------------------------------------------------------->
-    <div class="container-fluid" style="color:#FFF;border:none;background-color:#64a0d4" id="praias">   
+    <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="praias">   
       <div class="container"> 
        <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Nossas Praias</h2><br>
         <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
@@ -504,8 +504,8 @@
                   </a>
                 </div>
                 <div class="caption text-center text-center">
-                  <h3   style="color:#FFF" ><strong>Praia de Panaquantira</strong></h3>
-                   <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"> <span class="glyphicon glyphicon-map-marker btn-lg" style="text-align:center"></span><br>Localização</a>
+                  <h3   style="color:#FFF" ><strong>Panaquantira</strong></h3>
+                   <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
                 </div>
               </div> 
               <div class="col-md-4" >
@@ -515,8 +515,8 @@
                   </a>
                 </div>
                 <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
-                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                  <h3 class="text-center"  style="color:#FFF"><strong>Guarapiranga</strong></h3>
+                  <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
                 </div>
               </div> 
               <div class="col-md-4" >
@@ -526,10 +526,80 @@
                   </a>
                 </div>
                 <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
-                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                  <h3 class="text-center"  style="color:#FFF"><strong>Aribual</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
                 </div>
               </div>       
+            </div>
+            <div class="item">
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Moça</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Unicamping</strong></h3>
+                  <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Jaraúna</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"> <span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                </div>
+              </div> 
+            </div>
+            <div class="item">
+              <div class="col-md-4">
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Boa Viagem</strong></h3>
+                  <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Jararaí</strong></h3>
+                  <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>São Raimundo</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                </div>
+              </div> 
             </div>
             <div class="item ">
               <div class="col-md-4" >
@@ -539,8 +609,8 @@
                   </a>
                 </div>
                 <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
-                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                  <h3 class="text-center"  style="color:#FFF"><strong>Porto da campina</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
                 </div>
               </div> 
               <div class="col-md-4" >
@@ -550,8 +620,8 @@
                   </a>
                 </div>
                 <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
-                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                  <h3 class="text-center"  style="color:#FFF"><strong>Porto do Barbosa</strong></h3>
+                  <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
                 </div>
               </div> 
               <div class="col-md-4" >
@@ -561,8 +631,67 @@
                   </a>
                 </div>
                 <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de Panaquantira</strong></h3>
-                    <span class="glyphicon glyphicon-map-marker btn-lg" ></span><br>Localização 
+                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de banho</strong></h3>
+                  <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                </div>
+              </div> 
+            </div>
+            <div class="item ">
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Caúra</strong></h3>
+                  <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta Verde</strong></h3>
+                  <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Madalena</strong></h3>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                </div>
+              </div> 
+            </div>
+            <div class="item ">
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Meio</strong></h3>
+                  <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a> 
+                </div>
+              </div> 
+              <div class="col-md-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"  style="color:#FFF"><strong>Araçagi</strong></h3>
+                  <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
                 </div>
               </div> 
             </div>
@@ -578,6 +707,100 @@
         </div>
       </div>
     </div>
+
+    <!------------------------------------------------------------------------->
+    <div class="container-fluid" style="color:border:none;background-color:#FFF" id="curiosidades">   
+      <div class="container"> 
+        <div class="row">
+          <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy;">Curiosidades</h2><br>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center ">
+              <h3 style="color:#64a0d4"><strong>Camboas de São José de Ribamar </strong></h3>
+              <p style="text-align: justify">
+                Estão localizadas na praia da Ponta Verde, que são currais construídos de pedras para captura de peixes. Essas camboas foram feitas pelos índios gamelas que habitaram em São José de Ribamar no século XVII.
+              </p>
+            </div>
+          </div> 
+
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center">
+              <h3 style="color:#64a0d4"><strong>Cacimbas de água doce</strong></h3>
+              <p style="text-align: justify">
+                As cacimbas de água doce são cova ou poço que recebe a água pluvial filtrada pelos terrenos circunjacentes e são utilizadas pela população. São Típicas do nordeste brasileiro, em nosso município as cacimbas são encontradas em duas praias de São José Ribamar: Praia da Sede e Praia da Moça.
+              </p>
+            </div>
+          </div> 
+
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center ">
+              <h3 style="color:#64a0d4"><strong>Falésias</strong></h3>
+              <p style="text-align: justify">
+                As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.
+              </p>
+            </div>
+          </div> 
+        </div><br><br>
+
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center text-center">
+              <h3 style="color:#64a0d4"><strong>Corredor das aves migratórias</strong></h3>
+              <p style="text-align: justify">
+                O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem.  
+              </p>
+            </div>
+          </div> 
+
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center text-center">
+              <h3 style="color:#64a0d4"><strong>Ninhal da Campina</strong></h3>
+              <p style="text-align: justify">
+                O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. 
+              </p>
+            </div>
+          </div> 
+
+          <div class="col-md-3 col-md-offset-1">
+            <div class="">
+              <a href="#" >
+                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
+              </a>
+            </div>
+            <div class="caption text-center text-center">
+              <h3 style="color:#64a0d4"><strong>Sítio Arqueológico </strong></h3>
+              <p style="text-align: justify">
+                O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições.
+              </p>
+            </div>
+          </div> 
+        </div>
+    </div>
+  </div>
    
     <!--------------------------------------------------------------------------->
 
