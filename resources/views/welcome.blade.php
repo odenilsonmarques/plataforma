@@ -799,8 +799,44 @@
             </div>
           </div> 
         </div>
+      </div>
     </div>
-  </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-4" id="borda">
+                <h3>OUTROS SERVIÇOS</h3>
+                <ul>
+                    <li>Fotos 3 x 4 | Fotos 10 x 15 | Fotos 15 x 20</li>
+                    <li>Criação de Banner | Montagem de Fotos</li>               
+                    <li>Restauração de Fotos</li>
+                </ul>
+              </div>
+              <div class="col-sm-4" id="borda">
+                <h3>LOCALIZAÇÃO</h3>
+                <p>O Ceará o Fotos, Encontra-se Localizado na Rua Manoel José Maia, nº 39, São José de Ribamar / Cep 65110-000.</p><br>
+              </div>
+              <div class="col-sm-4 links">
+                <h3>ENCONTRE-NOS</h3>
+                <ul>
+                    <li >
+                        <a href="https://www.facebook.com/"   target="_blank" ><img src="assets/img/facebook-logo.png"> Facebook</a>
+                    </li><br>  
+                    <li>  
+                        <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img  src="assets/img/icon.png">  Instagran</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-sm-12">
+                <div class="informacao">
+                    &copy 2019 Osvaldo Canuto || by <a href="#">ODSystem.com</a>
+                </div>
+              </div>  
+          </div>
+        </div>
+      </div>
+    </footer>
    
     <!--------------------------------------------------------------------------->
 
@@ -811,10 +847,6 @@
           });
         });
     </script>
-
-    <footer class="container-fluid text-center">
-      <p>Footer Text</p>
-    </footer>
 
     <script src="{{('/assets/js/jquery-3.1.1.min.js')}}"></script>
     <script src="{{('/assets/js/bootstrap.min.js')}}"></script>
