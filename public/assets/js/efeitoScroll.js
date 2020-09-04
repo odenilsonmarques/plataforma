@@ -12,3 +12,4 @@ $('nav a').click(function(e){
 		scrollTop: targetOffset - menuHeight
 	}, 1000);
 });
+
