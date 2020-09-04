@@ -24,7 +24,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" >
           <ul class="nav navbar-nav navbar-right" style="color:#FFF">
-            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#plataforma">A Plataforma</a></li>
             <li><a href="#quemSomos">Quem somos</a></li>
             <li><a href="#acoes">Ações</a></li>
             <li><a href="#projetos">Projetos</a></li>
@@ -135,7 +135,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="background-color:#64a0d4;border:none" id="sobre">    
+    <div class="container-fluid" style="background-color:#64a0d4;border:none" id="plataforma">    
       <div class="container"> 
         <div class="row"><br>
           <div class="col-sm-12 text-center">
