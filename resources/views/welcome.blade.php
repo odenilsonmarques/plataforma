@@ -24,6 +24,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" >
           <ul class="nav navbar-nav navbar-right" style="color:#FFF">
+            <li><a href="#sobre">Sobre</a></li>
             <li><a href="#quemSomos">Quem somos</a></li>
             <li><a href="#acoes">Ações</a></li>
             <li><a href="#projetos">Projetos</a></li>
@@ -40,99 +41,137 @@
   </header>
   
 
-  <div class="container" style="background-color:none;">
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle" style="border:2px solid #77cc6d">    
+    <div class="container" style="background-color:none;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle" style="border:2px solid #77cc6d">    
+              </div>  
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
             </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
+            </div>
+            <h3 class="text-center">Palestra Dia da Árvore</h3> 
           </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-          </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-          </div>
-          <h3 class="text-center">Palestra Dia da Árvore</h3> 
-        </div>
 
-        <div class="item">
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+          <div class="item">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>  
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d"><br><br>
+            </div>
+            <h3 class="text-center">Praia Legal é Praia Limpa</h3> 
           </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d"><br><br>
-          </div>
-          <h3 class="text-center">Praia Legal é Praia Limpa</h3> 
-        </div>
 
-        <div class="item">
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-          </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+          <div class="item">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+            </div>  
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
+            </div>
+            <h3 class="text-center">Conexão Sustentabilidade</h3> 
           </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-          </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-          </div>
-          <h3 class="text-center">Conexão Sustentabilidade</h3> 
-        </div>
 
-        <div class="item">
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+          <div class="item">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>  
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
+            </div>
+            <h3 class="text-center">Doação de Mudas</h3> 
           </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-          </div>
-          <h3 class="text-center">Doação de Mudas</h3> 
-        </div>
 
-        <div class="item">
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>  
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+          <div class="item">
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>  
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+            </div>
+            <div class="col-sm-3">
+              <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
+            </div>
+            <h3 class="text-center">Hora do Planeta</h3> 
           </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-          </div>
-          <div class="col-sm-3">
-            <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-          </div>
-          <h3 class="text-center">Hora do Planeta</h3> 
-        </div>
-      </div><br><br><br>
-      <!-- Indicators -->
-      <ol class="carousel-indicators"class="img-responsive ">
-        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
-        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
-        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="3"></li>
-        <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="4"></li>
-      </ol>
+        </div><br><br><br>
+        <!-- Indicators -->
+        <ol class="carousel-indicators"class="img-responsive ">
+          <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
+          <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
+          <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="3"></li>
+          <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="4"></li>
+        </ol>
+      </div>
     </div>
-  </div>
+
+    <div class="container-fluid" style="background-color:#64a0d4;border:none" id="sobre">    
+      <div class="container"> 
+        <div class="row"><br>
+          <div class="col-sm-12 text-center">
+            
+            <h2 style="color:#FFF"><b>Plataforma</b></h2>
+              <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
+                A plataforma ambiental criada pela Secretaria Municipal do Ambiente tem o
+                objetivo de apresentar projetos socioeducativos, ações ambientais e curiosidades da
+                nossa cidade, que são realizados por esta secretaria, atingindo um número significativo
+                de pessoas e ajudando a transformar a realidade em que vivemos. Nosso trabalho
+                possibilita o desenvolvimento de diversos benefícios ambientais que, por sua vez,
+                reproduzem efeitos positivos para a sociedade.
+                A plataforma vem trazer informação para o cidadão para que possa ter
+                conhecimento das nossas atividades e através desse conhecimento mostrar que é
+                possível que cada cidadão tenha consciência da sua responsabilidade perante o meio
+                ambiente. Sendo também um canal de comunicação para a difusão do conhecimento e
+                informações que despertem a conscientização sobre o desenvolvimento sustentável,
+                além de apoiar e promover campanhas, projetos e iniciativas que incentivem uma
+                postura consciente diante a nossa sociedade.
+              </p>
+          </div>
+        </div><br><br><br>
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <img src="{{('/assets/img/responsabilidade.png')}}" style="text-align:center" width="80px">  
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="{{('/assets/img/ecologia.png')}}" style="text-align:center" width="80px">  
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="{{('/assets/img/terra.png')}}" style="text-align:center" width="80px">  
+          </div>
+        </div><br><br><br><br>
+      </div>
+    </div><br>
+
   
     <div class="container-fluid" style="background-color:#64a0d4;border:none" id="quemSomos">    
       <div class="container"> 

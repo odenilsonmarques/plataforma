@@ -66,3 +66,12 @@
 .text-center .img-responsive{
   margin: 0 auto;
 }
+
+#sobre{
+  opacity:1;
+  
+}
+
+#sobre:hover{
+  opacity:0.9;
+}
