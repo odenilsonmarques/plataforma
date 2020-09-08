@@ -42,99 +42,103 @@
     </header>
 
     <article class="anime">
-      <div class="container" style="background-color:none;">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive img-circle" style="border:2px solid #77cc6d">    
-                </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-              </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-              </div>
-              <h3 class="text-center">Palestra Dia da Árvore</h3> 
-            </div>
+      <div class="container-fluid" style="background-color:none" id="myNavbar">     
+        <div class="container" style="background-color:none;">
+          <div class="row"><br>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive " style="border:2px solid #77cc6d;border-radius:10px">    
+                  </div>  
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive"  style="border:2px solid #77cc6d;border-radius:10px">
+                  </div>
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive"  style="border:2px solid #77cc6d;border-radius:10px">
+                  </div>  
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive"  style="border:2px solid #77cc6d;border-radius:10px"><br><br>
+                  </div>
+                    <h3 class="text-center">Palestra Dia da Árvore</h3> 
+                </div>
 
-            <div class="item">
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d"><br><br>
-              </div>
-              <h3 class="text-center">Praia Legal é Praia Limpa</h3> 
-            </div>
+                <div class="item">
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img6.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                  </div>  
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img7.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                  </div>
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img8.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                  </div>
+                  <div class="col-sm-3">
+                    <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px"><br><br>
+                  </div>
+                    <h3 class="text-center">Praia Legal é Praia Limpa</h3>
+                </div>
 
-            <div class="item">
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-              </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-              </div>
-              <h3 class="text-center">Conexão Sustentabilidade</h3> 
-            </div>
+                <div class="item">
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>  
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px"><br><br>
+                    </div>
+                    <h3 class="text-center">Conexão Sustentabilidade</h3> 
+                  </div>
 
-            <div class="item">
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
+                  <div class="item">
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>  
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px"><br><br>
+                    </div>
+                    <h3 class="text-center">Doação de Mudas</h3> 
+                  </div>
+                  
+                  <div class="item">
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>  
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d;border-radius:10px">
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d;border-radius:10px"><br><br>
+                    </div>
+                    <h3 class="text-center">Hora do Planeta</h3> 
+                  </div>
+                </div><br><br>
+                <!-- Indicators -->
+                <ol class="carousel-indicators"class="img-responsive ">
+                  <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
+                  <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
+                  <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="3"></li>
+                  <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="4"></li>
+                </ol>
               </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-              </div>
-              <h3 class="text-center">Doação de Mudas</h3> 
             </div>
-
-            <div class="item">
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img20.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>  
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive img-circle" style="border:2px solid #77cc6d">
-              </div>
-              <div class="col-sm-3">
-                <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive img-circle"  style="border:2px solid #77cc6d"><br><br>
-              </div>
-              <h3 class="text-center">Hora do Planeta</h3> 
-            </div>
-          </div><br><br>
-          <!-- Indicators -->
-          <ol class="carousel-indicators"class="img-responsive ">
-            <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="1"></li>
-            <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="2"></li>
-            <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="3"></li>
-            <li data-target="#demo" style="background-color:#77cc6d;" data-slide-to="4"></li>
-          </ol>
+          </div>
         </div>
-      </div>
     </article>
    
     <section class="anime">
@@ -143,7 +147,7 @@
           <div class="row"><br>
             <div class="col-sm-12 text-center">
               
-              <h2 style="color:#FFF"><b>Plataforma</b></h2><br><br>
+              <h2 style="color:#FFF; text-align:left"><b>Plataforma</b></h2><br><br>
                 <p style="font-size:17px;color:#FFF;text-align:justify;font-family:verdana">
                   A plataforma ambiental criada pela Secretaria Municipal do Ambiente tem o
                   objetivo de apresentar projetos socioeducativos, ações ambientais e curiosidades da
@@ -216,69 +220,89 @@
             <div class="col-sm-4 text-center">
               <img src="{{('/assets/img/oportunidade.png')}}" style="text-align:center" width="80px">
             </div>
-          </div><br>
+          </div><br><br><br>
         </div>
       </div>
     </section>
+    <section class="anime">
+      <div class="container-fluid" style="color:#FFF;border:none;background-color:#64a0d4" id="acoes">   
+        <div class="container"> 
+        <h2 class="text-left" style="color:#FFF;font-family: Fantasy">Nossas Ações</h2><br>
+          <div class="row"> 
+            <div class="col-sm-4">
+              <div class="thumbnail" style="none">
+                <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
+                <div class="caption text-center">
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Dia da Água</strong></h4>
+                  <p style="text-align:justify">
+                    A SEMAM em parcerias com as Secretaria Municipal de Educação (SEMED) realiza anualmente um evento socioeducativo nas escolas municipais do Município, em comemoração ao dia mundial da água. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumbnail" style="none">
+                <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
+                <div class="caption text-center">
+                  <h4 class="text-center"  style="color:#64a0d4;font-size:15px"><strong>Dia da árvore</strong></h4>
+                  <p style="text-align:justify">
+                    Em sua comemoração é realizado varias atividades, tais como: mesa redonda com engenheiro agrônomo, palestras nas escolas sobre a importância das árvores, exposição de trabalhos recicláveis, plantio e doações de mudas.
+                  </p>
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-4">
+              <div class="thumbnail"  style="none">
+                <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
+                <div class="caption text-center">
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Doação de Mudas</strong></h4>
+                  <p style="text-align:justify">
+                    A secretaria promove a recuperação de áreas degradadas, paisagismo das praças e a inclusão social através das ações ambientais em todo o município, são doadas mudas de espécies frutíferas, ornamentais e medicinais.
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>  
+          
 
-    <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="acoes">   
-      <div class="container"> 
-      <h2 class="text-left" style="color:#FFF;font-family: Fantasy">Nossas Ações</h2><br>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="thumbnail"  style="none">
-              <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption text-center">
-                <h4 class="text-center" style="color:#64a0d4"><strong>Doação de Mudas</strong></h4>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="thumbnail" style="none">
+                <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%" >
+                <div class="caption text-center">
+                  <h4 class="text-center"  style="color:#64a0d4;font-size:15px"><strong>Oficinas</strong></h4>
+                  <p style="text-align:justify">
+                    O objetivo das oficinas é estimular a participação da população na preservação dos recursos naturais e na busca de soluções dos problemas ambientais, enfatizando a importância da reutilização e da reciclagem dos resíduos sólidos
+                  </p>
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-4">
+              <div class="thumbnail" style="none">
+                <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
+                <div class="caption text-center">
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Semana Mundial do Meio Ambiente</strong></h4>
+                  <p style="text-align:justify">
+                    O principal objetivo da Semana Nacional do Meio Ambiente é conscientizar a comunidade sobre a importância de preservar os diferentes tipos de ecossistemas, promovendo seminários sobre politicas ambientais.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>  
-          <div class="col-sm-4">
-            <div class="thumbnail" style="none">
-              <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption text-center">
-                <h4 class="text-center" style="color:#64a0d4"><strong>Dia da Água</strong></h4>
+            <div class="col-sm-4">
+              <div class="thumbnail" style="none">
+                <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
+                <div class="caption text-center">
+                  <h4 class="text-center"  style="color:#64a0d4;font-size:15px"><strong>Palestras Educativas</strong></h4>
+                  <p style="text-align:justify">
+                    A SEMAM desenvolve o projeto Palestras nas Escolas com o objetivo de levar conhecimento sobre educação ambiental nas salas de aula, com maior enfoque para as problemáticas sobre resíduos sólidos, reciclagem, sustentabilidade... 
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="thumbnail" style="none">
-              <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption text-center">
-                <h4 class="text-center"  style="color:#64a0d4"><strong>Palestras Educativas</strong></h4>
-              </div>
-            </div>
-          </div>  
-        </div>
-
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="thumbnail" style="none">
-              <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%" >
-              <div class="caption text-center">
-                <h4 class="text-center"  style="color:#64a0d4"><strong>Oficinas</strong></h4>
-              </div>
-            </div>
-          </div>  
-          <div class="col-sm-4">
-            <div class="thumbnail" style="none">
-              <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption text-center">
-                <h4 class="text-center" style="color:#64a0d4"><strong>Semana Mundial do Meio Ambiente</strong></h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="thumbnail" style="none">
-              <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-              <div class="caption text-center">
-                <h4 class="text-center"  style="color:#64a0d4"><strong>Dia da árvore</strong></h4>
-              </div>
-            </div>
-          </div>  
+            
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
       <div class="container"> 
