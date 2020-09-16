@@ -233,13 +233,19 @@
               <div class="thumbnail" style="none">
                 <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
                 <div class="caption text-center">
-                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Dia da Água</strong></h4>
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Dia da Água</strong></h4> 
                   <p style="text-align:justify">
                     A SEMAM em parcerias com as Secretaria Municipal de Educação (SEMED) realiza anualmente um evento socioeducativo nas escolas municipais do Município, em comemoração ao dia mundial da água. 
                   </p>
+                  <!--link para chamar o modal-->
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalDiaDaAgua">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
+            
             <div class="col-sm-4">
               <div class="thumbnail" style="none">
                 <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
@@ -248,6 +254,10 @@
                   <p style="text-align:justify">
                     Em sua comemoração é realizado varias atividades, tais como: mesa redonda com engenheiro agrônomo, palestras nas escolas sobre a importância das árvores, exposição de trabalhos recicláveis, plantio e doações de mudas.
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>  
@@ -259,6 +269,10 @@
                   <p style="text-align:justify">
                     A secretaria promove a recuperação de áreas degradadas, paisagismo das praças e a inclusão social através das ações ambientais em todo o município, são doadas mudas de espécies frutíferas, ornamentais e medicinais.
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div> 
@@ -274,6 +288,10 @@
                   <p style="text-align:justify">
                     O objetivo das oficinas é estimular a participação da população na preservação dos recursos naturais e na busca de soluções dos problemas ambientais, enfatizando a importância da reutilização e da reciclagem dos resíduos sólidos
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>  
@@ -285,6 +303,10 @@
                   <p style="text-align:justify">
                     O principal objetivo da Semana Nacional do Meio Ambiente é conscientizar a comunidade sobre a importância de preservar os diferentes tipos de ecossistemas, promovendo seminários sobre politicas ambientais.
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
@@ -296,13 +318,38 @@
                   <p style="text-align:justify">
                     A SEMAM desenvolve o projeto Palestras nas Escolas com o objetivo de levar conhecimento sobre educação ambiental nas salas de aula, com maior enfoque para as problemáticas sobre resíduos sólidos, reciclagem, sustentabilidade... 
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
-            
         </div>
       </div>
     </section>
+    <!---sessao para chamar os modais de cada acão-->
+    <section>
+      <div class="modal fade" id="myModalDiaDaAgua" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Dia da água</h4>
+            </div>
+            <div class="modal-body">
+              <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    
 
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
       <div class="container"> 
@@ -364,7 +411,7 @@
             <div class="carousel slide" id="myCarouselPPL">
               <div class="carousel-inner">
                 <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  <img src="{{('/assets/img/img41.jpg')}}" class="img-responsive img-rounded" width="100%">
                 </div>
                 <div class="item" data-slide-number="1">
                   <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
