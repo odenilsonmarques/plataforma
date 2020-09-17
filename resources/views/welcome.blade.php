@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{('/assets/css/estiloIndex.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloFooter.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloAnime.css')}}">
+    <link rel="stylesheet" href="{{('/assets/css/estilocarrosselProjetos.css')}}">
   </head>
 
   <body>
@@ -233,13 +234,19 @@
               <div class="thumbnail" style="none">
                 <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
                 <div class="caption text-center">
-                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Dia da Água</strong></h4>
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Dia da Água</strong></h4> 
                   <p style="text-align:justify">
                     A SEMAM em parcerias com as Secretaria Municipal de Educação (SEMED) realiza anualmente um evento socioeducativo nas escolas municipais do Município, em comemoração ao dia mundial da água. 
                   </p>
+                  <!--link para chamar o modal-->
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalDiaDaAgua">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
+            
             <div class="col-sm-4">
               <div class="thumbnail" style="none">
                 <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
@@ -248,15 +255,26 @@
                   <p style="text-align:justify">
                     Em sua comemoração é realizado varias atividades, tais como: mesa redonda com engenheiro agrônomo, palestras nas escolas sobre a importância das árvores, exposição de trabalhos recicláveis, plantio e doações de mudas.
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalDiaDaArvore">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>  
             <div class="col-sm-4">
               <div class="thumbnail"  style="none">
-                  <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive" width="100%" />
-                  <div class="carousel-caption">
-                    Insert your text here !
-                  </div>
+              <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">               
+                <div class="caption text-center">
+                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Doação de Mudas</strong></h4>
+                  <p style="text-align:justify">
+                    A secretaria promove a recuperação de áreas degradadas, paisagismo das praças e a inclusão social através das ações ambientais em todo o município, são doadas mudas de espécies frutíferas, ornamentais e medicinais.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalDoacaDeMudas">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
+                </div>
               </div>
             </div> 
           </div>  
@@ -270,6 +288,10 @@
                   <p style="text-align:justify">
                     O objetivo das oficinas é estimular a participação da população na preservação dos recursos naturais e na busca de soluções dos problemas ambientais, enfatizando a importância da reutilização e da reciclagem dos resíduos sólidos
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalOficina">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>  
@@ -281,6 +303,10 @@
                   <p style="text-align:justify">
                     O principal objetivo da Semana Nacional do Meio Ambiente é conscientizar a comunidade sobre a importância de preservar os diferentes tipos de ecossistemas, promovendo seminários sobre politicas ambientais.
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalSemana">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
@@ -292,278 +318,658 @@
                   <p style="text-align:justify">
                     A SEMAM desenvolve o projeto Palestras nas Escolas com o objetivo de levar conhecimento sobre educação ambiental nas salas de aula, com maior enfoque para as problemáticas sobre resíduos sólidos, reciclagem, sustentabilidade... 
                   </p>
+                  <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalPalestra">
+                    <span class="glyphicon glyphicon-th"></span><br/>
+                    Galeria
+                  </a>
                 </div>
               </div>
             </div>
-            
+        </div>
+      </div>
+    </section>
+    <!---sessao para chamar os modais de cada acão-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalDiaDaAgua" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Dia da Água</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel1" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel1" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalDiaDaArvore" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Dia da Árvore</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel2" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalDoacaDeMudas" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Doação de Mudas</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel3" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel3" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalOficina" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Oficinas</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel4" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel4" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalSemana" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Semana Mundial do Meio Ambiente</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel5" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel5" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel5" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalPalestra" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Palestras Educativas</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarousel6" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel6" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#" >
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height:50%; margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;height: 50%;margin-top: 2%" class="zoom">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel6" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel6" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
-      <div class="container"> 
-        <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy">Projetos</h2><br>
-        <div class="row" id="slide">
-          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-            <div class="carousel slide" id="myCarouselPMDQ">
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
+    
+    <section class="anime">
+      <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
+        <div class="container"> 
+          <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy">Projetos</h2><br>
+          <div class="row" id="slide">
+            <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+              <div class="carousel slide" id="myCarouselPMDQ">
+                <div class="carousel-inner">
+                  <div class="active item" data-slide-number="0">
+                    <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  </div>
+                  <div class="item" data-slide-number="1">
+                    <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  </div>
+                  <div class="item" data-slide-number="2">
+                    <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  </div>
+                  <div class="item" data-slide-number="3">
+                    <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  </div>
+                  <div class="item" data-slide-number="4">
+                    <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  </div>
                 </div>
-                <div class="item" data-slide-number="1">
+                <a class="left carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                </a>
+                <a class="right carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                </a>   
+              </div>
+            </div> 
+            
+            <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Parque Natural  Municipal da Quinta</p>
+              Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
+              "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
+              Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+              <div class="row">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                   <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
-                <div class="item" data-slide-number="2">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                   <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
-                <div class="item" data-slide-number="3">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                   <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
-                <div class="item" data-slide-number="4">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                   <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
                 </div>
               </div>
-              <a class="left carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>                                       
-              </a>
-              <a class="right carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>                                       
-              </a>   
-            </div>
-          </div> 
-          
-          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Parque Natural  Municipal da Quinta</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
-            <div class="row">
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-            </div>
-          </div> 
-        </div>        
-        <br>
-        <hr>
-      
-        <div class="row" id="slide2">
-          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-            <div class="carousel slide" id="myCarouselPPL">
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="1">
-                  <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="2">
-                  <img src="{{('/assets/img/img40.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="3">
-                  <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="4">
-                  <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-              </div>
-              <a class="left carousel-control" href="myCarousepraiasPPL" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>                                       
-              </a>
-              <a class="right carousel-control" href="myCarousepraiasPPL" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>                                       
-              </a>   
-            </div>
-          </div> 
-          
-          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/>
-            <div class="row">
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img40.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-            </div>
-          </div> 
-        </div>        
-        <br>
-        <hr>
-
-
-        <div class="row" id="slide3">
-          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-            <div class="carousel slide" id="myCarouselPRMV">
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img60.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="1">
-                  <img src="{{('/assets/img/img61.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="2">
-                  <img src="{{('/assets/img/img62.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="3">
-                  <img src="{{('/assets/img/img59.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="4">
-                  <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-              </div>
-              <a class="left carousel-control" href="myCarousepraiasPRMV" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>                                       
-              </a>
-              <a class="right carousel-control" href="myCarousepraiasPRMV" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>                                       
-              </a>   
-            </div>
-          </div> 
-          
-          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Ribamar Mais Verde</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-            <div class="row">
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img52.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img61.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img62.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img59.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-            </div>
-          </div> 
-        </div>        
-        <br>
-        <hr>
-
-        <div class="row" id="slide4">
-          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-            <div class="carousel slide" id="myCarouselRN">
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img58.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="1">
-                  <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="2">
-                  <img src="{{('/assets/img/img55.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="3">
-                  <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="4">
-                  <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-              </div>
-              <a class="left carousel-control" href="myCarousepraiasRN" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>                                       
-              </a>
-              <a class="right carousel-control" href="myCarousepraiasRN" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>                                       
-              </a>   
-            </div>
-          </div> 
-          
-          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Recuperação de Nascente e Monitoramento do Rio da Prata</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-            <div class="row">
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img55.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-            </div>
-          </div> 
-        </div>        
-        <br>
-        <hr>
-
-        <div class="row" id="slide5">
-          <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-            <div class="carousel slide" id="myCarouselEAE">
-              <div class="carousel-inner">
-                <div class="active item" data-slide-number="0">
-                  <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="1">
-                  <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="2">
-                  <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="3">
-                  <img src="{{('/assets/img/img48.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-                <div class="item" data-slide-number="4">
-                  <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                </div>
-              </div>
-              <a class="left carousel-control" href="myCarousepraiasEAE" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>                                       
-              </a>
-              <a class="right carousel-control" href="myCarousepraiasEAE" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>                                       
-              </a>   
-            </div>
-          </div> 
-          
-          <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Educação Ambiental nas Escolas</p>
-            Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-            "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-            Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-            <div class="row">
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img48.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-              <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
-                <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
-              </div>
-            </div><br>
-          </div> 
-        </div>        
+            </div> 
+          </div>        
+          <br>
+          <hr>
+        </div>
       </div>
-    </div>
+    </section>
 
+    <section>
+      <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
+        <div class="container"> 
+          <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+            <div class='carousel-outer'>
+                  <!-- Wrapper for slides -->
+              <div class='carousel-inner'>
+                <div class='item active'>
+                  <img src="{{('/assets/img/img35.jpg')}}" alt='' />
+                </div>
+                <div class='item'>
+                  <img src="{{('/assets/img/img29.jpg')}}" alt='' />
+                </div>
+              </div>
+                      
+                  <!-- Controls -->
+              <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+                <span class='glyphicon glyphicon-chevron-left'></span>
+              </a>
+              <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+                <span class='glyphicon glyphicon-chevron-right'></span>
+              </a>
+            </div>
+              
+              <!-- Indicators -->
+              <ol class='carousel-indicators'>
+                  <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src="{{('/assets/img/img35.jpg')}}"  alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='1'><img src="{{('/assets/img/img29.jpg')}}"  alt='' /></li>
+              </ol>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--------------------------------------------------------------------------->
     <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="praias">   
