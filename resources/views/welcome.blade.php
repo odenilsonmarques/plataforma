@@ -253,18 +253,14 @@
             </div>  
             <div class="col-sm-4">
               <div class="thumbnail"  style="none">
-                <img src="{{('/assets/img/img25.jpg')}}"   class="img-responsive" width="100%">
-                <div class="caption text-center">
-                  <h4 class="text-center" style="color:#64a0d4;font-size:15px"><strong>Doação de Mudas</strong></h4>
-                  <p style="text-align:justify">
-                    A secretaria promove a recuperação de áreas degradadas, paisagismo das praças e a inclusão social através das ações ambientais em todo o município, são doadas mudas de espécies frutíferas, ornamentais e medicinais.
-                  </p>
-                </div>
+                  <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive" width="100%" />
+                  <div class="carousel-caption">
+                    Insert your text here !
+                  </div>
               </div>
             </div> 
           </div>  
           
-
           <div class="row">
             <div class="col-sm-4">
               <div class="thumbnail" style="none">
