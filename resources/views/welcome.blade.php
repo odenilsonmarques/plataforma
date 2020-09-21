@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{('/assets/css/estiloIndex.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloFooter.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloAnime.css')}}">
-    <link rel="stylesheet" href="{{('/assets/css/estilocarrosselProjetos.css')}}">
   </head>
 
   <body>
@@ -884,30 +883,27 @@
           <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy">Projetos</h2><br>
           <div class="row" id="slide">
             <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
-              <div class="carousel slide" id="myCarouselPMDQ">
-                <div class="carousel-inner">
-                  <div class="active item" data-slide-number="0">
-                    <img src="{{('/assets/img/img36.jpg')}}"   class="img-responsive img-rounded" width="100%">
+            <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img30.jpg')}}" alt=''/>
                   </div>
-                  <div class="item" data-slide-number="1">
-                    <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  <div class='item'>
+                    <img src="{{('/assets/img/img27.jpg')}}" alt=''/>
                   </div>
-                  <div class="item" data-slide-number="2">
-                    <img src="{{('/assets/img/img27.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  <div class='item'>
+                    <img src="{{('/assets/img/img35.jpg')}}" alt=''/>
                   </div>
-                  <div class="item" data-slide-number="3">
-                    <img src="{{('/assets/img/img35.jpg')}}"   class="img-responsive img-rounded" width="100%">
-                  </div>
-                  <div class="item" data-slide-number="4">
-                    <img src="{{('/assets/img/img29.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                  <div class='item'>
+                    <img src="{{('/assets/img/img29.jpg')}}" alt=''/>
                   </div>
                 </div>
-                <a class="left carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
                 </a>
-                <a class="right carousel-control" href="myCarousepraiasPMDQ" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>                                       
-                </a>   
+                <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
               </div>
             </div> 
             
@@ -933,40 +929,6 @@
           </div>        
           <br>
           <hr>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container-fluid" style="color:#FFF;border:none;background-color:#FFF" id="projetos">   
-        <div class="container"> 
-          <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
-            <div class='carousel-outer'>
-                  <!-- Wrapper for slides -->
-              <div class='carousel-inner'>
-                <div class='item active'>
-                  <img src="{{('/assets/img/img35.jpg')}}" alt='' />
-                </div>
-                <div class='item'>
-                  <img src="{{('/assets/img/img29.jpg')}}" alt='' />
-                </div>
-              </div>
-                      
-                  <!-- Controls -->
-              <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
-                <span class='glyphicon glyphicon-chevron-left'></span>
-              </a>
-              <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
-                <span class='glyphicon glyphicon-chevron-right'></span>
-              </a>
-            </div>
-              
-              <!-- Indicators -->
-              <ol class='carousel-indicators'>
-                  <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src="{{('/assets/img/img35.jpg')}}"  alt='' /></li>
-                  <li data-target='#carousel-custom' data-slide-to='1'><img src="{{('/assets/img/img29.jpg')}}"  alt='' /></li>
-              </ol>
-          </div>
         </div>
       </div>
     </section>
