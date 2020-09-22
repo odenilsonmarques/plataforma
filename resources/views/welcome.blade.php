@@ -908,9 +908,9 @@
             </div> 
             
             <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Parque Natural  Municipal da Quinta</p>
-              Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em 
-              "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes.
-              Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.<br/><br/>
+              O parque natural da quinta possui uma área de aproximadamente de 24 hectares e dotado de um rico ecossistema, 
+              situado no município de são José de Ribamar, foi transformado em uma unidade de conservação sustentável, 
+              situação que permite preservar a fauna e a flora do local.   .<br/><br/>
               <div class="row">
                 <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
                   <img src="{{('/assets/img/img30.jpg')}}"   class="img-responsive img-rounded" width="100%">
@@ -926,325 +926,587 @@
                 </div>
               </div>
             </div> 
-          </div>        
-          <br>
-          <hr>
+          </div><hr/>
+          
+          <div class="row" id="slide">
+            <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+            <div id='carousel-custom2' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img41.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img42.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img40.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img43.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom2' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Praia Legal é Praia Limpa</p>
+              O Projeto Praia Legal é Praia Limpa, desenvolvido pela Secretaria do Ambiente- SEMAM realizando várias ações de conscientização
+               para limpeza e preservação das praias que compreende a orla marítima das praias do município de São José de Ribamar-MA. .<br/><br/>
+              <div class="row">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img41.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img42.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img40.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img43.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+
+          <div class="row" id="slide">
+            <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+            <div id='carousel-custom2' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img60.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img61.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img62.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img59.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom2' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Projeto Ribamar Mais Verde</p>
+              O projeto Ribamar Mais Verde tem como objetivo aumentar as áreas verdes do município, diversificando a
+              quantidade de espécies arbóreas, ocupando os espaços vazios nas vias e logradouros públicos. Foram plantadas diversas árvores arbóreas em diversos lugares da Cidade .<br/><br/>
+              <div class="row">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img60.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img61.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img62.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img59.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+
+          <div class="row" id="slide">
+            <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+            <div id='carousel-custom2' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img54.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img55.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img56.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img57.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom2' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Recuperação de Nascente e Monitoramento do Rio da Prata</p>
+              O presente projeto vem apresentar uma proposta de recuperação do potencial hídrico das nascentes degradadas no Município de São Jose de Ribamar. 
+              O aumento da expansão imobiliária e a ocupação desordenada veio impactar o ecossistema. .<br/><br/>
+              <div class="row">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img55.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+          
+          <div class="row" id="slide">
+            <div class="col-sm-4"  id="carousel-bounding-box" style="color:#64a0d4;text-align:justify">
+            <div id='carousel-custom2' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img51.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img50.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img47.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img48.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom2' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-sm-8" style="color:#64a0d4;text-align:justify"> <p style="font-size:22px">Educação Ambiental nas Escolas</p>
+              A presente secretaria realiza projetos em diversas áreas ambientais, buscando uma melhor interação da juventude com a natureza,
+              além de proporcionar momentos de lazer e aprendizagem, com o objetivo de alinhar o conhecimento dos alunos com a prática, sensibilizando-os sobre a importância da preservação ambiental..<br/><br/>
+              <div class="row">
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+                <div class="col-sm-3" style="color:#64a0d4;text-align:justify">
+                  <img src="{{('/assets/img/img48.jpg')}}"   class="img-responsive img-rounded" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><br/>
         </div>
       </div>
     </section>
 
     <!--------------------------------------------------------------------------->
-    <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="praias">   
-      <div class="container"> 
-       <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Nossas Praias</h2><br>
-        <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
-          
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
+    <section class="anime">
+      <div class="container-fluid" style="color:#FFF;border:none;background-color:#77cc6d" id="praias">   
+        <div class="container"> 
+        <h2 class="text-left" style="color:#FFF;font-family: Fantasy;">Nossas Praias</h2><br>
+          <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center text-center">
+                      <h3   style="color:#FFF" ><strong>Panaquantira</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Guarapiranga</strong></h3>
+                      <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Aribual</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div>  
+                </div>     
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Moça</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Unicamping</strong></h3>
+                      <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Jaraúna</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"> <span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
                 </div>
-                <div class="caption text-center text-center">
-                  <h3   style="color:#FFF" ><strong>Panaquantira</strong></h3>
-                   <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Boa Viagem</strong></h3>
+                      <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Jararaí</strong></h3>
+                      <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>São Raimundo</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
                 </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
+              </div>
+              <div class="item ">
+                <div class="row">
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Porto da campina</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Porto do Barbosa</strong></h3>
+                      <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Praia de banho</strong></h3>
+                      <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
                 </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Guarapiranga</strong></h3>
-                  <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+              </div>
+              <div class="item ">
+                <div class="row">
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Caúra</strong></h3>
+                      <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Ponta Verde</strong></h3>
+                      <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Madalena</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
                 </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
+              </div>
+              <div class="item ">
+                <div class="row">
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Meio</strong></h3>
+                      <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"  style="color:#FFF"><strong>Araçagi</strong></h3>
+                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
                 </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Aribual</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div>       
-            </div>
-            <div class="item">
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Moça</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Unicamping</strong></h3>
-                  <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Jaraúna</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"> <span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div> 
-            </div>
-            <div class="item">
-              <div class="col-md-4">
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Boa Viagem</strong></h3>
-                  <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Jararaí</strong></h3>
-                  <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>São Raimundo</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div> 
-            </div>
-            <div class="item ">
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Porto da campina</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Porto do Barbosa</strong></h3>
-                  <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Praia de banho</strong></h3>
-                  <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                </div>
-              </div> 
-            </div>
-            <div class="item ">
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Caúra</strong></h3>
-                  <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta Verde</strong></h3>
-                  <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Ponta da Madalena</strong></h3>
-                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
-                </div>
-              </div> 
-            </div>
-            <div class="item ">
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Meio</strong></h3>
-                  <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a> 
-                </div>
-              </div> 
-              <div class="col-md-4" >
-                <div class="">
-                  <a href="#" >
-                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" style="width:100%;height: 50%" class="zoom">
-                  </a>
-                </div>
-                <div class="caption text-center">
-                  <h3 class="text-center"  style="color:#FFF"><strong>Araçagi</strong></h3>
-                  <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank" style="color:#FFF;font-size:30px"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
-                </div>
-              </div> 
-            </div>
-            <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousepraias" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-          </div><br><br><br><br>
+              </div>
+              <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousepraias" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+            </div><br><br><br><br><br><br><br><br>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!------------------------------------------------------------------------->
-    <div class="container-fluid" style="color:border:none;background-color:#FFF" id="curiosidades">   
-      <div class="container"> 
-        <div class="row">
-          <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy;">Curiosidades</h2><br>
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center ">
-              <h3 style="color:#64a0d4"><strong>Camboas de São José de Ribamar </strong></h3>
-              <p style="text-align: justify">
-                Estão localizadas na praia da Ponta Verde, que são currais construídos de pedras para captura de peixes. Essas camboas foram feitas pelos índios gamelas que habitaram em São José de Ribamar no século XVII.
-              </p>
-            </div>
-          </div> 
+    <section class="anime">
+      <div class="container-fluid" style="color:border:none;background-color:#FFF" id="curiosidades">   
+        <div class="container"> 
+          <div class="row">
+            <h2 class="text-left" style="color:#64a0d4;font-family: Fantasy;">Curiosidades</h2><br>
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#"  data-toggle="modal" data-target="#myModalCamboas">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;">
+                </a>
+              </div>
+              <div class="caption text-center">
+                <h3 style="color:#64a0d4"><strong>Camboas de São José de Ribamar </strong></h3>
+                <p style="text-align: justify">
+                  Estão localizadas na praia da Ponta Verde, que são currais construídos de pedras para captura de peixes. Essas camboas foram feitas pelos índios gamelas que habitaram em São José de Ribamar no século XVII.
+                </p>
+              </div>
+            </div> 
 
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center">
-              <h3 style="color:#64a0d4"><strong>Cacimbas de água doce</strong></h3>
-              <p style="text-align: justify">
-                As cacimbas de água doce são cova ou poço que recebe a água pluvial filtrada pelos terrenos circunjacentes e são utilizadas pela população. São Típicas do nordeste brasileiro, em nosso município as cacimbas são encontradas em duas praias de São José Ribamar: Praia da Sede e Praia da Moça.
-              </p>
-            </div>
-          </div> 
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalCacimbas">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;">
+                </a>
+              </div>
+              <div class="caption text-center">
+                <h3 style="color:#64a0d4"><strong>Cacimbas de água doce</strong></h3>
+                <p style="text-align: justify">
+                  As cacimbas de água doce são cova ou poço que recebe a água pluvial filtrada pelos terrenos circunjacentes e são utilizadas pela população. São Típicas do nordeste brasileiro, em nosso município as cacimbas são encontradas em duas praias de São José Ribamar: Praia da Sede e Praia da Moça.
+                </p>
+              </div>
+            </div> 
 
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center ">
-              <h3 style="color:#64a0d4"><strong>Falésias</strong></h3>
-              <p style="text-align: justify">
-                As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.
-              </p>
-            </div>
-          </div> 
-        </div><br><br>
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalFalesias">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;">
+                </a>
+              </div>
+              <div class="caption text-center ">
+                <h3 style="color:#64a0d4"><strong>Falésias</strong></h3>
+                <p style="text-align: justify">
+                  As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.
+                </p>
+              </div>
+            </div> 
+          </div><br><br>
 
-        <div class="row">
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center text-center">
-              <h3 style="color:#64a0d4"><strong>Corredor das aves migratórias</strong></h3>
-              <p style="text-align: justify">
-                O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem.  
-              </p>
-            </div>
-          </div> 
+          <div class="row">
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalCorredor">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%">
+                </a>
+              </div>
+              <div class="caption text-center text-center">
+                <h3 style="color:#64a0d4"><strong>Corredor das aves migratórias</strong></h3>
+                <p style="text-align: justify">
+                  O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem.  
+                </p>
+              </div>
+            </div> 
 
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center text-center">
-              <h3 style="color:#64a0d4"><strong>Ninhal da Campina</strong></h3>
-              <p style="text-align: justify">
-                O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. 
-              </p>
-            </div>
-          </div> 
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalNinhal">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;">
+                </a>
+              </div>
+              <div class="caption text-center text-center">
+                <h3 style="color:#64a0d4"><strong>Ninhal da Campina</strong></h3>
+                <p style="text-align: justify">
+                  O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. 
+                </p>
+              </div>
+            </div> 
 
-          <div class="col-md-3 col-md-offset-1">
-            <div class="">
-              <a href="#" >
-                <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;border:2px solid #64a0d4">
-              </a>
-            </div>
-            <div class="caption text-center text-center">
-              <h3 style="color:#64a0d4"><strong>Sítio Arqueológico </strong></h3>
-              <p style="text-align: justify">
-                O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições.
-              </p>
-            </div>
-          </div> 
+            <div class="col-md-3 col-md-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalSitio">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive img-circle" alt="Lights" style="width:100%;">
+                </a>
+              </div>
+              <div class="caption text-center text-center">
+                <h3 style="color:#64a0d4"><strong>Sítio Arqueológico </strong></h3>
+                <p style="text-align: justify">
+                  O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições.
+                </p>
+              </div>
+            </div> 
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!--Section responsavel por chamar os modais-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModalCamboas" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;color:#64a0d4">Dia da Água</h4>
+                  </div>
+                  <div class="modal-body">
+                      <!--inicio carrossel-->
+                        <div id="myCarouselCB" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouselCB" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouselCB" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-12">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="col-md-12">
+                                        <div class="">
+                                            <a href="#">
+                                                <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" style="width:100%;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarouselCB" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarouselCB" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                      <!--fim carrossel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+
+
     <footer  style="background-color:#64a0d4">
       <div class="container-fluid"  style="background-color:#64a0d4">
         <div class="container">
