@@ -1,27 +1,42 @@
-.cabecalho{
-    background-color:#3CB371;
+.navbar {
+  background-color:#77cc6d;
+  z-index: 9999;
+  border: 0;
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
-.alert-info{
-    text-align: center;
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-brand{
+  font-size: 21px;;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color:#fff !important;
+  background-color: #64a0d4 !important;
+  border-radius: 10px;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.jumbotron {
+    margin-top: 2%;
+    font-family:sans-serif;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color:#77cc6d;
+}
+h2{
+  color: #fff;
+  font-size: 35px;
+}
+h3{
+  color: #fff;
+  font-family: cursive;
 }
 
- li{
-    text-align: left;
-    font-size: 15px;
-}
 
-h5{
-    color:#2F4F4F;
-    font-size: 17px;
-}
-
-h1, h3{
-   color: #fff;
-   text-align:center;
-
-}
-
-h4{
-    color: #fff;
-   text-align:center;
-}
+  
