@@ -67,7 +67,14 @@ h4{
 .modal-title{
   font-size: 23px;
 }
- .col-lg-12 img{
+
+.item img{
   border: none;
-  border-radius: none;
+}
+
+.modal-footer p{
+  font-size:17px;
+  color:#64a0d4;
+  text-align:justify;
+  font-family:verdana;
 }

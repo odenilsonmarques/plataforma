@@ -339,12 +339,12 @@
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights"   class="img-responsive"  width="100%" height="500px">
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights"   class="img-responsive" width="100%" height="500px">
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -360,14 +360,297 @@
                       </div>
                       <!--fim carrossel-->
                   </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>A SEMAM em parcerias com as Secretaria Municipal de Educação (SEMED) realiza anualmente um evento socioeducativo nas escolas municipais do Município,
+                      em comemoração ao dia mundial da água. A ação tem como objetivo, a conscientização dos alunos e da população para o valor e gestão consciente dos recursos hídricos, 
+                      além de chamar a atenção para a necessidade de exercer uma ação efetiva ao desperdício de água através da educação ambiental. A programação é bastante diversificada, 
+                      contando com recreação, oficina, palestra, exposição e doação de mudas frutíferas, ornamentais e medicinais.</b>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+
+
+            <!---->
+            <div class="modal fade" id="myModalDiaDaArvore" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header"><br/><br/>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Dia da Árvore</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!--inicio carrossel-->
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" >
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel2" data-slide-to="1"></li>
+                        </ol>
+                          <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>  
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!--fim carrossel-->
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>A Secretaria Municipal do Ambiente- SEMAM realiza anualmente uma vasta programação para o público jovem, 
+                        em comemoração ao dia da árvore. Essa data tão importante é comemorada mundialmente e foi escolhida pela 
+                        grande importância que as árvores possuem na natureza, pois elas absorvem poluentes do ar e liberam oxigênio 
+                        que respiramos, proporcionam sombra e frescor e produzem diversos alimentos.</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!----->
+
+            <!---->
+            <div class="modal fade" id="myModalDoacaDeMudas" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header"><br/><br/>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Doação de Mudas</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!--inicio carrossel-->
+                    <div id="myCarousel3" class="carousel slide" data-ride="carousel" >
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel3" data-slide-to="1"></li>
+                        </ol>
+                          <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>  
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!--fim carrossel-->
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>Com o intuito de ampliar a biodiversidade, levar a consciência ambiental e recuperar áreas degradadas, 
+                        a Prefeitura de São José de Ribamar, através da Secretaria Municipal do Ambiente (SEMAM) realiza diversas
+                         ações e campanhas de doação de mudas em toda a Cidade, anualmente são mais de duas mil mudas doadas para 
+                         a população. A secretaria promove a recuperação de áreas degradadas, paisagismo das praças e a inclusão 
+                         social através das ações ambientais em todo o município, são doadas mudas de espécies frutíferas, 
+                         ornamentais e medicinais..</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
+
+            <!---->
+            <div class="modal fade" id="myModalOficina" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header"><br/><br/>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Oficinas</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!--inicio carrossel-->
+                    <div id="myCarousel4" class="carousel slide" data-ride="carousel" >
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel4" data-slide-to="1"></li>
+                        </ol>
+                          <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>  
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!--fim carrossel-->
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>O objetivo das oficinas é estimular a participação da população na preservação dos recursos 
+                        naturais e na busca de soluções dos problemas ambientais, enfatizando a importância da reutilização e 
+                        da reciclagem dos resíduos sólidos. A reciclagem é importante também para a sociedade, uma vez que gera 
+                        renda com a produção de novos produtos.</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
+
+            <!---->
+            <div class="modal fade" id="myModalSemana" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header"><br/><br/>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Semana Mundial do Meio Ambiente</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!--inicio carrossel-->
+                    <div id="myCarousel5" class="carousel slide" data-ride="carousel" >
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel5" data-slide-to="1"></li>
+                        </ol>
+                          <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>  
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel5" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!--fim carrossel-->
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>O principal objetivo da Semana Nacional do Meio Ambiente é conscientizar a comunidade sobre a importância de preservar os diferentes tipos de ecossistemas. 
+                        A secretaria promove eventualmente seminários municipais sobre diversos temas ambientais, promovendo seminários sobre politicas ambientais, com atividades tais como; 
+                        palestras socioeducativas, oficinais, exposição de reutilização de pneus, doação de mudas, limpeza de rios e praias e plantios de mudas.    
+                        .</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
+
+            <!---->
+            <div class="modal fade" id="myModalPalestra" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header"><br/><br/>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Palestras Educativas</h4>
+                  </div>
+                  <div class="modal-body">
+                    <!--inicio carrossel-->
+                    <div id="myCarousel6" class="carousel slide" data-ride="carousel" >
+                      <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel6" data-slide-to="1"></li>
+                        </ol>
+                          <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>  
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel6" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel6" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <!--fim carrossel-->
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <b>A SEMAM desenvolve o projeto Palestras nas Escolas com o objetivo de levar conhecimento sobre educação 
+                        ambiental nas salas de aula, com maior enfoque para as problemáticas sobre resíduos sólidos, reciclagem, 
+                        sustentabilidade e consumo consciente. O projeto é aplicado em conjunto com a Secretaria Municipal de Educação – SEMED 
+                        nas escolas do município, abrangendo toda a comunidade escolar.</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
+
           </div>
         </div>
       </div>
     </section>
 
+    
      <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
    
     <section style="background-color: #818181">
