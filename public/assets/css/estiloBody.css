@@ -8,11 +8,13 @@
 	opacity: 1;
 	transform: translate3d(0,0,0);
 }
-img{
+
+.item img{
+  border: 1px solid #77cc6d;
   width: 100%;
-  border-radius: 10px;
-  border:2px solid #77cc6d;
+  border-radius: 5px;
 }
+
 #carouselSlide h3{
   color:#77cc6d;
 }
@@ -54,6 +56,7 @@ h4{
 
 .thumbnail img{ 
   border: 1px solid #FFF;
+  border-radius: 5px;
 }
 
 .thumbnail h4{
@@ -67,14 +70,48 @@ h4{
 .modal-title{
   font-size: 23px;
 }
-
-.item img{
-  border: none;
-}
-
 .modal-footer p{
   font-size:17px;
   color:#64a0d4;
   text-align:justify;
   font-family:verdana;
+}
+
+#projetos{
+  color:#FFF;
+  border:none;
+  background-color:#FFF;
+}
+
+.proj{
+  color:#64a0d4;
+}
+
+#titulo{
+  color:#64a0d4;
+  font-size: 22px;
+}
+#texto{
+  font-size:17px;
+  color:#64a0d4;
+  text-align:justify;
+  font-family:verdana;
+}
+
+.col-lg-8 img{
+  border-radius: 5px;
+  border:1px solid #64a0d4;
+}
+
+#praias{
+ color:#FFF;
+ border:none;
+ background-color:#77cc6d;
+ 
+
+}
+
+.caption a{
+  color:#FFF;
+  
 }

@@ -47,16 +47,16 @@
             <div id="carouselSlide" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="item active">
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img16.jpg')}}" class="img-responsive">
                   </div>  
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img17.jpg')}}" class="img-responsive">
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img18.jpg')}}" class="img-responsive">
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive"><br/>
                   </div>
                   <h3 class="text-center">Doação de Mudas</h3>
@@ -79,16 +79,16 @@
                 </div>
 
                 <div class="item">
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive">
                   </div>  
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive">
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive">
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-lg-3">
                     <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive"><br/>
                   </div>
                   <h3 class="text-center">Conexão Sustentabilidade</h3> 
@@ -644,19 +644,503 @@
               </div>
             </div>
             <!---->
-
           </div>
         </div>
       </div>
     </section>
 
+    <!---->
+    <section class="anime">
+      <div class="container-fluid" id="projetos">   
+        <div class="container"> 
+          <h2 class="text-left proj"><b>Projetos</b></h2><br>
+          <div class="row" id="slide">
+            <div class="col-lg-4" id="carousel-bounding-box">
+              <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img30.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img27.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img35.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img29.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-lg-8"> 
+              <p id="titulo"><b>Parque Natural  Municipal da Quinta</b></p>
+                <p id="texto">
+                  O parque natural da quinta possui uma área de aproximadamente de 24 hectares e dotado de um rico ecossistema, 
+                  situado no município de são José de Ribamar, foi transformado em uma unidade de conservação sustentável, 
+                  situação que permite preservar a fauna e a flora do local.
+                </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img30.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img27.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img35.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img29.jpg')}}" class="img-responsive" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+          
+          <div class="row" id="slide">
+            <div class="col-lg-4" id="carousel-bounding-box">
+              <div id='carousel-custom2' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img41.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img42.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img40.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img43.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom2' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom2' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-lg-8"> 
+              <p id="titulo"><b>Projeto Praia Legal é Praia Limpa</b></p>
+                <p id="texto">
+                  O Projeto Praia Legal é Praia Limpa, desenvolvido pela Secretaria do Ambiente- SEMAM realizando várias ações de conscientização
+                  para limpeza e preservação das praias que compreende a orla marítima das praias do município de São José de Ribamar-MA. 
+                </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img41.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img42.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img40.jpg')}}" class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img43.jpg')}}" class="img-responsive" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+    
+          <div class="row" id="slide">
+            <div class="col-lg-4"  id="carousel-bounding-box">
+              <div id='carousel-custom3' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img60.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img61.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img62.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img59.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom3' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom3' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-lg-8"> 
+              <p id="titulo"><b>Projeto Ribamar Mais Verde</b></p>
+                <p id="texto">
+                  O projeto Ribamar Mais Verde tem como objetivo aumentar as áreas verdes do município, diversificando a
+                  quantidade de espécies arbóreas, ocupando os espaços vazios nas vias e logradouros públicos. Foram plantadas
+                  diversas árvores arbóreas em diversos lugares da Cidade.
+                </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img60.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img61.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img62.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img59.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+    
+          <div class="row" id="slide">
+            <div class="col-lg-4"  id="carousel-bounding-box">
+              <div id='carousel-custom4' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img54.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img55.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img56.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img57.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom4' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom4' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-lg-8"> 
+              <p id="titulo"><b>Recuperação de Nascente e Monitoramento do Rio da Prata</b></p>
+                <p id="texto">
+                  O presente projeto vem apresentar uma proposta de recuperação do potencial hídrico das nascentes degradadas no Município de São Jose de Ribamar. 
+                  O aumento da expansão imobiliária e a ocupação desordenada veio impactar o ecossistema. 
+                </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img54.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img55.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><hr/>
+          
+          <div class="row" id="slide">
+            <div class="col-lg-4"  id="carousel-bounding-box">
+              <div id='carousel-custom5' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <img src="{{('/assets/img/img51.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img50.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img47.jpg')}}" alt=''/>
+                  </div>
+                  <div class='item'>
+                    <img src="{{('/assets/img/img48.jpg')}}" alt=''/>
+                  </div>
+                </div>
+                <a class='left carousel-control' href='#carousel-custom5' data-slide='prev'>
+                  <span class='glyphicon glyphicon-chevron-left'></span>
+                </a>
+                <a class='right carousel-control' href='#carousel-custom5' data-slide='next'>
+                  <span class='glyphicon glyphicon-chevron-right'></span>
+                </a> 
+              </div>
+            </div> 
+            
+            <div class="col-lg-8"> 
+              <p id="titulo"><b>Educação Ambiental nas Escolas</b></p>
+                <p id="texto">
+                  A presente secretaria realiza projetos em diversas áreas ambientais, buscando uma melhor interação da juventude com a natureza,
+                  além de proporcionar momentos de lazer e aprendizagem, com o objetivo de alinhar o conhecimento dos alunos com a prática, 
+                  sensibilizando-os sobre a importância da preservação ambiental.
+                </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+                <div class="col-lg-3">
+                  <img src="{{('/assets/img/img48.jpg')}}"   class="img-responsive" width="100%">
+                </div>
+              </div>
+            </div> 
+          </div><br/>
+        </div>
+      </div>
+    </section>
+    <!---->
+
+    <!---->
+    <section class="anime">
+      <div class="container-fluid" id="praias">   
+        <div class="container">
+          <h2 class="text-left"><b>Nossas Praias</b></h2><br/>
+          <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#">
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center text-center">
+                      <h3><strong>Panaquantira</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Guarapiranga</strong></h3>
+                      <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Aribual</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div>  
+                </div>     
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Moça</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Unicamping</strong></h3>
+                      <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta da Jaraúna</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Boa Viagem</strong></h3>
+                      <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Jararaí</strong></h3>
+                      <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>São Raimundo</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Porto da campina</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Porto do Barbosa</strong></h3>
+                      <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Praia de banho</strong></h3>
+                      <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Caúra</strong></h3>
+                      <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta Verde</strong></h3>
+                      <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta da Madalena</strong></h3>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="item ">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Meio</strong></h3>
+                      <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-md-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Araçagi</strong></h3>
+                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousepraias" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div><br/><br/><br/><br/><br/><br/><br/><br/>
+      </div>
+    </section>
+    <!---->
     
      <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
-   
-    <section style="background-color: #818181">
-qljdqkjdqkdljkqljdkqljdkqjlk
-alkqjkjqljsl
-    </section>
+  
 
     
     
