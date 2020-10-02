@@ -110,8 +110,29 @@ h4{
  
 
 }
-
 .caption a{
   color:#FFF;
   
+}
+
+#curiosidades{
+  background-color:#FFF;
+}
+
+.curiosidade{
+  color:#64a0d4;
+}
+.col-lg-offset-1 img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+#tituloCuriosidade{
+  color:#FFF;
+  text-align: center;
+  font-size: 15px;
+}
+#textoCuriosidade{
+  text-align: justify;
+  color:#64a0d4;
 }

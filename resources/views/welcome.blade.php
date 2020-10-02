@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{('/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloHeader.css')}}">
     <link rel="stylesheet" href="{{('/assets/css/estiloBody.css')}}">
+    <link rel="stylesheet" href="{{('/assets/css/estiloFooter.css')}}">
   </head>
 
   <body>
@@ -1139,7 +1140,171 @@
     </section>
     <!---->
     
-     <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
+    <!---->
+    <section class="anime">
+      <div class="container-fluid" id="curiosidades">   
+        <div class="container"> 
+          <div class="row">
+            <h2 class="text-left curiosidade"><b>Curiosidades</b></h2><br>
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#"  data-toggle="modal" data-target="#myModalCamboas">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCamboas" id="tituloCuriosidade">Camboas de São José de Ribamar<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <div id="demoCamboas" class="collapse">
+                  <p id="textoCuriosidade">
+                    Estão localizadas na praia da Ponta Verde, que são currais construídos de pedras para captura de peixes. Essas camboas foram feitas pelos índios gamelas que habitaram em São José de Ribamar no século XVII.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalCacimbas">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCacimba" id="tituloCuriosidade">Cacimbas de água doce<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <div id="demoCacimba" class="collapse">
+                  <p id="textoCuriosidade">
+                    As cacimbas de água doce são cova ou poço que recebe a água pluvial filtrada pelos terrenos circunjacentes e são utilizadas pela população. São Típicas do nordeste brasileiro, em nosso município as cacimbas são encontradas em duas praias de São José Ribamar: Praia da Sede e Praia da Moça.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalFalesias">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoFalesia" id="tituloCuriosidade">Falésias<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                  <div id="demoFalesia" class="collapse">
+                    <p id="textoCuriosidade">
+                      As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.
+                    </p>
+                  </div>
+              </div>
+            </div> 
+          </div><br><br>
+
+          <div class="row">
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalCorredor">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCorredor" id="tituloCuriosidade">Corredor das aves migratórias<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                  <div id="demoCorredor" class="collapse">
+                    <p id="textoCuriosidade">
+                        O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem.  
+                    </p>
+                  </div>
+              </div>
+            </div> 
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalNinhal">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoNinhal" id="tituloCuriosidade">Ninhal da Campina<br/>Veja <span class="glyphicon glyphicon-plus"></button>
+                  <div id="demoNinhal" class="collapse">
+                    <p id="textoCuriosidade">
+                      O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. 
+                    </p>
+                  </div>
+              </div>
+            </div> 
+            <div class="col-lg-3 col-lg-offset-1">
+              <div class="">
+                <a href="#" data-toggle="modal" data-target="#myModalSitio">
+                  <img src="{{('/assets/img/img4.jpg')}}"  class="img-responsive" alt="Lights">
+                </a>
+              </div><br/>
+              <div class="caption text-center text-center">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoSitio" id="tituloCuriosidade">Sítio Arqueológico<br/>Veja <span class="glyphicon glyphicon-plus"></button>
+                  <div id="demoSitio" class="collapse">
+                    <p  id="textoCuriosidade">
+                      O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições.
+                    </p>
+                  </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
+
+    <!--na parte abaixo fica o rodapa da pagina-->
+    
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-left" id="borda">
+              <h3>EDUCAÇÃO AMBIENTAL</h3>
+              <ul>
+                <li>Ações</li>
+                <li>Curiosidades</li> 
+                <li>Dia da árvore</li>  
+                <li>Dia da Água</li> 
+                <li>Doação de Mudas</li>      
+                <li>Prais</li>
+                <li>Palestras Educativas</li>   
+                <li>Semana Mundial do Meio Ambiente</li>   
+                <li>Oficinas</li>           
+              </ul>
+            </div>
+            <div class="col-lg-4 text-center" id="borda">
+              <h3>LOCALIZAÇÃO</h3>
+              <p>O Ceará o Fotos, Encontra-se Localizado na Rua Manoel José Maia, nº 39, São José de Ribamar / Cep 65110-000.</p><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3985.829588328001!2d-44.0578895352439!3d-2.5622097981330714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x7f6bcde2d47b959%3A0xb948650e423c8221!2sGaleria%20Jos%C3%A9%20De%20Alencar%20-%20Av.%20Gon%C3%A7alves%20Dias%2C%20309%20-%20Moropia%2C%20S%C3%A3o%20Jos%C3%A9%20de%20Ribamar%20-%20MA%2C%2065110-000!3m2!1d-2.5611843999999997!2d-44.0555666!5e0!3m2!1spt-BR!2sbr!4v1599160393192!5m2!1spt-BR!2sbr" width="350" height="125" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-lg-4  links">
+              <h3>ENCONTRE-NOS</h3>
+              <ul>
+                <li >
+                  <a href="https://www.facebook.com/"   target="_blank" ><img src="{{('assets/img/facebook-logo.png')}}"> Facebook</a>
+                </li><br>  
+                <li>  
+                  <a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img  src="{{('assets/img/icon.png')}}">  Instagran</a>
+                </li><br>
+                <li>  
+                  <a href="https://www.youtube.com/" target="_blank"><img  src="{{('assets/img/you.png')}}">  Youtube</a>
+                </li>
+              </ul>
+            </div>
+          </div><br><br><br>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="informacao">
+                Todos os direito reservados || Secretaria Municipal do Ambiente - SEMAM
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+    
+    
+    
+    <!---->
+
+
+     
   
 
     
