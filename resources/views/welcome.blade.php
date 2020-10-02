@@ -20,16 +20,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                              
             </button>
-            <a class="navbar-br/and" href="#eduAmbiental"><strong>Educação Ambiental</strong></a>
+            <a class="navbar-brand" href="#eduAmbiental"><strong>Educação Ambiental</strong></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#plataforma">Plataforma</a></li>
-              <li><a href="#departamento">Departamento</a></li>
-              <li><a href="#acoes">Ações</a></li>
-              <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#praias">Praias</a></li>
-              <li><a href="#curiosidades">Curiosidades</a></li>
+              <li><a href="#plataforma">Plataforma <span class="glyphicon glyphicon-globe"></span></a></li>
+              <li><a href="#departamento">Departamento <span class="glyphicon glyphicon-tree-deciduous"></span></a></li>
+              <li><a href="#acoes">Ações <span class="glyphicon glyphicon-th"></span></a></li>
+              <li><a href="#projetos">Projetos <span class="glyphicon glyphicon-cog"></span></a></li>
+              <li><a href="#praias">Praias <span class="glyphicon glyphicon-picture"></span></a></li>
+              <li><a href="#curiosidades">Curiosidades <span class="glyphicon glyphicon-tasks"></span></a></li>
             </ul>
           </div>
         </div>
@@ -60,7 +60,7 @@
                   <div class="col-lg-3">
                     <img src="{{('/assets/img/img19.jpg')}}" class="img-responsive"><br/>
                   </div>
-                  <h3 class="text-center">Doação de Mudas</h3>
+                  <p class="text-center">Doação de Mudas</p>
                 </div>
 
                 <div class="item">
@@ -76,46 +76,64 @@
                   <div class="col-lg-3">
                     <img src="{{('/assets/img/img9.jpg')}}" class="img-responsive"><br/>
                   </div>
-                    <h3 class="text-center">Praia Legal é Praia Limpa</h3>
+                    <p class="text-center">Praia Legal é Praia Limpa</p>
                 </div>
 
                 <div class="item">
                   <div class="col-lg-3">
-                    <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive">
+                    <img src="{{('/assets/img/img10.jpg')}}" class="img-responsive">
                   </div>  
+                  <div class="col-lg-3">
+                    <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive">
+                  </div>
                   <div class="col-lg-3">
                     <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive">
                   </div>
                   <div class="col-lg-3">
-                    <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive">
+                    <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive"><br/>
                   </div>
-                  <div class="col-lg-3">
-                    <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive"><br/>
-                  </div>
-                  <h3 class="text-center">Conexão Sustentabilidade</h3> 
+                  <p class="text-center">Oficina de Construcão do Plano de Ação de Educação Ambiental</p> 
                 </div>
-                
+
                 <div class="item">
                   <div class="col-lg-3">
                     <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive">    
                   </div>  
                   <div class="col-lg-3">
-                    <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive">
+                    <img src="{{('/assets/img/img1.jpg')}}" class="img-responsive">
                   </div>
                   <div class="col-lg-3">
-                    <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive">
+                    <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive">
                   </div>  
                   <div class="col-lg-3">
-                    <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive"><br/>
+                    <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive"><br/>
                   </div>
-                    <h3 class="text-center">Palestra Dia da Árvore</h3> 
-                </div><br/><br/><br/>
+                    <p class="text-center">Dia da Árvore</p> 
+                </div>
+
+                <div class="item">
+                  <div class="col-lg-3">
+                    <img src="{{('/assets/img/img20.jpg')}}"   class="img-responsive">    
+                  </div>  
+                  <div class="col-lg-3">
+                    <img src="{{('/assets/img/img21.jpg')}}" class="img-responsive">
+                  </div>
+                  <div class="col-lg-3">
+                    <img src="{{('/assets/img/img23.jpg')}}" class="img-responsive">
+                  </div>  
+                  <div class="col-lg-3">
+                    <img src="{{('/assets/img/img24.jpg')}}" class="img-responsive"><br/>
+                  </div>
+                    <p class="text-center">Ações Sociais</p> 
+                </div>
+                <br/><br/><br/>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#carouselSlide" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselSlide" style="background-color:#77cc6d;" data-slide-to="1"></li>
                   <li data-target="#carouselSlide" style="background-color:#77cc6d;" data-slide-to="2"></li>
                   <li data-target="#carouselSlide" style="background-color:#77cc6d;" data-slide-to="3"></li>
+                  <li data-target="#carouselSlide" style="background-color:#77cc6d;" data-slide-to="4"></li>
                 </ol>
               </div>
             </div>
@@ -152,13 +170,13 @@
           </div><br/><br/><br/>
           <div class="row">
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/responsabilidade.png')}}">  
+              <img src="{{('/assets/img/img63.jpg')}}" class="img-responsive img-circle">  
             </div>
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/ecologia.png')}}">  
+              <img src="{{('/assets/img64/ecologia.png')}}">  
             </div>
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/terra.png')}}">  
+              <img src="{{('/assets/img65/terra.png')}}">  
             </div>
           </div><br><br><br><br><br>
         </div>
@@ -1120,7 +1138,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Araçagi</strong></h3>
-                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
                     </div>
                   </div> 
                 </div>
@@ -1255,7 +1273,7 @@
             <div class="col-lg-4 text-left" id="borda">
               <h3>EDUCAÇÃO AMBIENTAL</h3>
               <ul>
-                <li>Ações</li>
+                <li>Ações</li>  
                 <li>Curiosidades</li> 
                 <li>Dia da árvore</li>  
                 <li>Dia da Água</li> 

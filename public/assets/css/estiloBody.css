@@ -15,6 +15,14 @@
   border-radius: 5px;
 }
 
+.item p{
+  color: #77cc6d;
+  font-family:Cambria;
+  font-size: 22px;
+  font-weight: bolder;
+
+}
+
 #carouselSlide h3{
   color:#77cc6d;
 }
@@ -23,6 +31,7 @@
   background-color:#64a0d4;
   border:none;
 }
+
 p{
   font-size:17px;
   color:#FFF;

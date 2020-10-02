@@ -1615,3 +1615,40 @@ style="border:2px solid #77cc6d;border-radius:10px"
 style="border:2px solid #77cc6d;border-radius:10px"
 style="border:2px solid #77cc6d;border-radius:10px"
 style="border:2px solid #77cc6d;border-radius:10px"
+
+
+
+
+
+
+<div class="item">
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img11.jpg')}}" class="img-responsive">
+  </div>  
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img12.jpg')}}" class="img-responsive">
+  </div>
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img13.jpg')}}" class="img-responsive">
+  </div>
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img14.jpg')}}" class="img-responsive"><br/>
+  </div>
+  <h3 class="text-center">Conexão Sustentabilidade</h3> 
+</div>
+
+<div class="item">
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img0.jpg')}}"   class="img-responsive">    
+  </div>  
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img2.jpg')}}" class="img-responsive">
+  </div>
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img3.jpg')}}" class="img-responsive">
+  </div>  
+  <div class="col-lg-3">
+    <img src="{{('/assets/img/img4.jpg')}}" class="img-responsive"><br/>
+  </div>
+    <h3 class="text-center">Palestra Dia da Árvore</h3> 
+</div>
