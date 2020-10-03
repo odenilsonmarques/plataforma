@@ -1652,3 +1652,245 @@ style="border:2px solid #77cc6d;border-radius:10px"
   </div>
     <h3 class="text-center">Palestra Dia da Árvore</h3> 
 </div>
+
+
+
+
+
+<div class="item">
+  <div class="row">
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Moça</strong></h3>
+        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+      </div>
+    </div> 
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Unicamping</strong></h3>
+        <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+      </div>
+    </div> 
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Ponta da Jaraúna</strong></h3>
+        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+
+<div class="item">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Boa Viagem</strong></h3>
+        <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Jararaí</strong></h3>
+        <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>São Raimundo</strong></h3>
+        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="item">
+  <div class="row">
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Porto da campina</strong></h3>
+        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-lg-4">
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Porto do Barbosa</strong></h3>
+        <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Praia de banho</strong></h3>
+        <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="item">
+  <div class="row">
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Caúra</strong></h3>
+        <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+      </div>
+    </div> 
+    <div class="col-md-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Ponta Verde</strong></h3>
+        <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-md-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Ponta da Madalena</strong></h3>
+        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="item ">
+  <div class="row">
+    <div class="col-lg-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Meio</strong></h3><hr> 
+        <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+      </div>
+    </div> 
+    <div class="col-md-4" >
+      <div class="">
+        <a href="#" >
+          <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+        </a>
+      </div>
+      <div class="caption text-center">
+        <h3 class="text-center"><strong>Araçagi</strong></h3>
+        <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+<section class="anime">
+  <div class="container-fluid" id="praias">   
+    <div class="container">
+      <div class="row">
+        <h2 class="text-left"><b>Nossas Praias</b></h2><br/>
+        <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-lg-4" >
+                <div class="">
+                  <a href="#">
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center text-center">
+                  <h3><strong>Panaquantira</strong></h3><hr>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                </div>
+              </div>
+              <div class="col-lg-4" >
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"><strong>Guarapiranga</strong></h3><hr>
+                  <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                </div><br/>
+              </div>
+              <div class="col-lg-4">
+                <div class="">
+                  <a href="#" >
+                    <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                  </a>
+                </div>
+                <div class="caption text-center">
+                  <h3 class="text-center"><strong>Aribual</strong></h3><hr>
+                  <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                </div><br/>
+              </div>
+            </div>     
+          </div>
+        </div><br/><br/><br/>
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousepraias" style="background-color:#FFF;" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousepraias" style="background-color:#FFF;" data-slide-to="1"></li>
+          <li data-target="#myCarousepraias" style="background-color#FFF;" data-slide-to="2"></li>
+          <li data-target="#myCarousepraias" style="background-color:#FFF;" data-slide-to="3"></li>
+          <li data-target="#myCarousepraias" style="background-color:#FFF;" data-slide-to="4"></li>
+        </ol>
+      </div>
+    </div><br/><br/>
+  </div>
+</section>

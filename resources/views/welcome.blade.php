@@ -150,7 +150,7 @@
         <div class="container"> 
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2 class="text-left"><b>Plataforma</b></h2><br/><br/>
+              <h2 class="text-left"><b>Plataforma</b></h2><br/>
                 <p>
                   A plataforma ambiental criada pela Secretaria Municipal do Ambiente tem o
                   objetivo de apresentar projetos socioeducativos, ações ambientais e curiosidades da
@@ -170,15 +170,15 @@
           </div><br/><br/><br/>
           <div class="row">
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/img63.jpg')}}" class="img-responsive img-circle">  
+              <img src="{{('/assets/img/responsabilidade.png')}}" style="font-size:100px">  
             </div>
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img64/ecologia.png')}}">  
+              <img src="{{('/assets/img/terra.png')}}">  
             </div>
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img65/terra.png')}}">  
+              <img src="{{('/assets/img/ecossistema.png')}}">  
             </div>
-          </div><br><br><br><br><br>
+          </div><br><br><br><br><br><br/><br/>
         </div>
       </div>
     </section>
@@ -189,7 +189,7 @@
       <div class="container-fluid" id="departamento">    
         <div class="container"> 
         <h2 class="text-left"><b>Departamento</b></h2>
-          <div class="row"><br>
+          <div class="row">
             <div class="col-sm-4 text-center">
               <h3><b>Sobre</b></h2>
                 <p>
@@ -236,7 +236,7 @@
           <div class="row"> 
             <div class="col-lg-4">
               <div class="thumbnail">
-                <img src="{{('/assets/img/img25.jpg')}}" class="img-responsive">
+                <img src="{{('/assets/img/img25.jpg')}}" class="img-responsive" style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Dia da Água</strong></h4>
                   <p>
@@ -253,7 +253,7 @@
             
             <div class="col-lg-4">
               <div class="thumbnail">
-                <img src="{{('/assets/img/img25.jpg')}}" class="img-responsive" >
+                <img src="{{('/assets/img/img25.jpg')}}" class="img-responsive" style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Dia da árvore</strong></h4>
                   <p>
@@ -268,7 +268,7 @@
             </div>  
             <div class="col-lg-4">
               <div class="thumbnail">
-              <img src="{{('/assets/img/img25.jpg')}}" class="img-responsive">               
+              <img src="{{('/assets/img/img66.jpg')}}" class="img-responsive" style="height:200px" >             
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Doação de Mudas</strong></h4>
                   <p>
@@ -286,7 +286,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="thumbnail">
-                <img src="{{('/assets/img/img26.jpg')}}" class="img-responsive">
+                <img src="{{('/assets/img/img76.jpg')}}" class="img-responsive" style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Oficinas</strong></h4>
                   <p>
@@ -301,7 +301,7 @@
             </div>  
             <div class="col-lg-4">
               <div class="thumbnail">
-                <img src="{{('/assets/img/img26.jpg')}}" class="img-responsive">
+                <img src="{{('/assets/img/img85.jpg')}}" class="img-responsive"  style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Semana Mundial do Meio Ambiente</strong></h4>
                   <p>
@@ -316,7 +316,7 @@
             </div>
             <div class="col-lg-4" >
               <div class="thumbnail">
-                <img src="{{('/assets/img/img26.jpg')}}" class="img-responsive">
+                <img src="{{('/assets/img/img26.jpg')}}" class="img-responsive"  style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center"><strong>Palestras Educativas</strong></h4>
                   <p>
@@ -407,17 +407,35 @@
                         <ol class="carousel-indicators">
                           <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
                           <li data-target="#myCarousel2" data-slide-to="1"></li>
+                          <li data-target="#myCarousel2" data-slide-to="2"></li>
+                          <li data-target="#myCarousel2" data-slide-to="3"></li>
+                          <li data-target="#myCarousel2" data-slide-to="4"></li>
                         </ol>
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img25.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img45.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img73.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img74.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img75.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -461,17 +479,35 @@
                         <ol class="carousel-indicators">
                           <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
                           <li data-target="#myCarousel3" data-slide-to="1"></li>
+                          <li data-target="#myCarousel3" data-slide-to="2"></li>
+                          <li data-target="#myCarousel3" data-slide-to="3"></li>
+                          <li data-target="#myCarousel3" data-slide-to="4"></li>
                         </ol>
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img66.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img67.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img68.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img69.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img70.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -517,17 +553,35 @@
                         <ol class="carousel-indicators">
                           <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
                           <li data-target="#myCarousel4" data-slide-to="1"></li>
+                          <li data-target="#myCarousel4" data-slide-to="2"></li>
+                          <li data-target="#myCarousel4" data-slide-to="3"></li>
+                          <li data-target="#myCarousel4" data-slide-to="4"></li>
                         </ol>
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img76.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img77.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img78.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img79.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img80.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -571,17 +625,35 @@
                         <ol class="carousel-indicators">
                           <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
                           <li data-target="#myCarousel5" data-slide-to="1"></li>
+                          <li data-target="#myCarousel5" data-slide-to="2"></li>
+                          <li data-target="#myCarousel5" data-slide-to="3"></li>
+                          <li data-target="#myCarousel5" data-slide-to="4"></li>
                         </ol>
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img81.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img82.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img83.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img84.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img85.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -625,17 +697,35 @@
                         <ol class="carousel-indicators">
                           <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
                           <li data-target="#myCarousel6" data-slide-to="1"></li>
+                          <li data-target="#myCarousel6" data-slide-to="2"></li>
+                          <li data-target="#myCarousel6" data-slide-to="3"></li>
+                          <li data-target="#myCarousel6" data-slide-to="4"></li>
                         </ol>
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                           <div class="item active">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img55.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
                             </div>  
                           </div>
                           <div class="item">
                             <div class="col-lg-12">                                       
-                              <img src="{{('/assets/img/img26.jpg')}}" alt="Lights" class="img-responsive">
+                              <img src="{{('/assets/img/img49.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img65.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img71.jpg')}}" alt="Lights" class="img-responsive">
+                            </div>      
+                          </div>
+                          <div class="item">
+                            <div class="col-lg-12">                                       
+                              <img src="{{('/assets/img/img72.jpg')}}" alt="Lights" class="img-responsive">
                             </div>      
                           </div>
                         </div>
@@ -836,7 +926,7 @@
                     <img src="{{('/assets/img/img56.jpg')}}" alt=''/>
                   </div>
                   <div class='item'>
-                    <img src="{{('/assets/img/img57.jpg')}}" alt=''/>
+                    <img src="{{('/assets/img/img58.jpg')}}" alt=''/>
                   </div>
                 </div>
                 <a class='left carousel-control' href='#carousel-custom4' data-slide='prev'>
@@ -865,7 +955,7 @@
                   <img src="{{('/assets/img/img56.jpg')}}"   class="img-responsive" width="100%">
                 </div>
                 <div class="col-lg-3">
-                  <img src="{{('/assets/img/img57.jpg')}}"   class="img-responsive" width="100%">
+                  <img src="{{('/assets/img/img58.jpg')}}"   class="img-responsive" width="100%">
                 </div>
               </div>
             </div> 
@@ -876,10 +966,10 @@
               <div id='carousel-custom5' class='carousel slide' data-ride='carousel'>
                 <div class='carousel-inner'>
                   <div class='item active'>
-                    <img src="{{('/assets/img/img51.jpg')}}" alt=''/>
+                    <img src="{{('/assets/img/img50.jpg')}}" alt=''/>
                   </div>
                   <div class='item'>
-                    <img src="{{('/assets/img/img50.jpg')}}" alt=''/>
+                    <img src="{{('/assets/img/img26.jpg')}}" alt=''/>
                   </div>
                   <div class='item'>
                     <img src="{{('/assets/img/img47.jpg')}}" alt=''/>
@@ -906,10 +996,10 @@
                 </p>
               <div class="row">
                 <div class="col-lg-3">
-                  <img src="{{('/assets/img/img51.jpg')}}"   class="img-responsive" width="100%">
+                  <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive" width="100%">
                 </div>
                 <div class="col-lg-3">
-                  <img src="{{('/assets/img/img50.jpg')}}"   class="img-responsive" width="100%">
+                  <img src="{{('/assets/img/img26.jpg')}}"   class="img-responsive" width="100%">
                 </div>
                 <div class="col-lg-3">
                   <img src="{{('/assets/img/img47.jpg')}}"   class="img-responsive" width="100%">
@@ -919,15 +1009,15 @@
                 </div>
               </div>
             </div> 
-          </div><br/>
-        </div>
+          </div>
+        </div><br>
       </div>
     </section>
     <!---->
 
     <!---->
     <section class="anime">
-      <div class="container-fluid" id="praias">   
+      <div class="container-fluid" id="praias"><br/>  
         <div class="container">
           <h2 class="text-left"><b>Nossas Praias</b></h2><br/>
           <div id="myCarousepraias" class="carousel slide" data-ride="carousel">
@@ -941,106 +1031,37 @@
                       </a>
                     </div>
                     <div class="caption text-center text-center">
-                      <h3><strong>Panaquantira</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Guarapiranga</strong></h3>
-                      <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Aribual</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                      <h3><strong>Panaquantira</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div>
                   </div>  
-                </div>     
-              </div>
-              <div class="item">
-                <div class="row">
                   <div class="col-lg-4" >
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Moça</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Unicamping</strong></h3>
-                      <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta da Jaraúna</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-              <div class="item">
-                <div class="row">
+                      <h3 class="text-center"><strong>Guarapiranga</strong></h3><hr>
+                      <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div><br/>
+                  </div>
                   <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Boa Viagem</strong></h3>
-                      <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      <h3 class="text-center"><strong>Aribual</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalDiaDaArvore">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
                     </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Jararaí</strong></h3>
-                      <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>São Raimundo</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
-                  </div> 
+                  </div>
                 </div>
               </div>
               <div class="item">
@@ -1052,8 +1073,84 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Porto da campina</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
+                      <h3 class="text-center"><strong>Moça</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
+                    </div><br/>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Unicamping</strong></h3><hr>
+                      <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta da Jaraúna</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div><br/>
+                  </div> 
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Boa Viagem</strong></h3><hr>
+                      <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Jararaí</strong></h3><hr>
+                      <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div>
+                  </div> 
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>São Raimundo</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div><br/>
+                  </div> 
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4" >
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Porto da campina</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div>
                   </div> 
                   <div class="col-lg-4">
@@ -1063,8 +1160,8 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Porto do Barbosa</strong></h3>
-                      <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                      <h3 class="text-center"><strong>Porto do Barbosa</strong></h3><hr>
+                      <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
                     </div>
                   </div> 
                   <div class="col-lg-4" >
@@ -1074,12 +1171,13 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Praia de banho</strong></h3>
-                      <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
-                    </div>
+                      <h3 class="text-center"><strong>Praia de banho</strong></h3><hr>
+                      <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
+                    </div><br/>
                   </div> 
                 </div>
               </div>
+
               <div class="item">
                 <div class="row">
                   <div class="col-lg-4" >
@@ -1089,8 +1187,8 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Caúra</strong></h3>
-                      <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a> 
+                      <h3 class="text-center"><strong>Caúra</strong></h3><hr>
+                      <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
                     </div>
                   </div> 
                   <div class="col-md-4" >
@@ -1100,8 +1198,8 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta Verde</strong></h3>
-                      <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
+                      <h3 class="text-center"><strong>Ponta Verde</strong></h3><hr>
+                      <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
                     </div>
                   </div> 
                   <div class="col-md-4" >
@@ -1111,23 +1209,24 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta da Madalena</strong></h3>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a>
-                    </div>
+                      <h3 class="text-center"><strong>Ponta da Madalena</strong></h3><hr>
+                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div><br/>
                   </div> 
                 </div>
               </div>
-              <div class="item ">
+
+              <div class="item">
                 <div class="row">
-                  <div class="col-lg-4" >
+                  <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
                         <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Meio</strong></h3>
-                      <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center"></span></a> 
+                      <h3 class="text-center"><strong>Meio</strong></h3><hr> 
+                      <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
                     </div>
                   </div> 
                   <div class="col-md-4" >
@@ -1137,23 +1236,24 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Araçagi</strong></h3>
-                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center"></span></a>
-                    </div>
+                      <h3 class="text-center"><strong>Araçagi</strong></h3><hr>
+                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                    </div><br/>
                   </div> 
                 </div>
               </div>
-              <a class="left carousel-control" href="#myCarousepraias" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousepraias" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="1"></li>
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="2"></li>
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="3"></li>
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="4"></li>
+                <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="5"></li>
+              </ol><br/><br/><br/><br/>
             </div>
           </div>
-        </div><br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
       </div>
     </section>
     <!---->
