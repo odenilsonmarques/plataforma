@@ -36,7 +36,7 @@ p{
   font-size:17px;
   color:#FFF;
   text-align:justify;
-  font-family:verdana;
+  font-family:Cambria;
 }
 
 .text-center img{
@@ -83,7 +83,7 @@ h4{
   font-size:17px;
   color:#64a0d4;
   text-align:justify;
-  font-family:verdana;
+  font-family:Cambria;
 }
 
 #projetos{
@@ -104,7 +104,7 @@ h4{
   font-size:17px;
   color:#64a0d4;
   text-align:justify;
-  font-family:verdana;
+  font-family:Cambria;
 }
 
 .col-lg-8 img{
@@ -144,4 +144,10 @@ h4{
 #textoCuriosidade{
   text-align: justify;
   color:#64a0d4;
+  font-family:Cambria;
+  font-weight: bolder;
+}
+#contatos{
+  background-color: #64a0d4;
+  color: #FFF;
 }

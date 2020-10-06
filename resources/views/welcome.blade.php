@@ -143,7 +143,6 @@
     </article>
     <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
 
-
     <!--na parte abaixo é inserido o conteudo que vai ser exibido no corpo da pagina-->
     <section class="anime">
       <div class="container-fluid" id="plataforma">    
@@ -170,7 +169,7 @@
           </div><br/><br/><br/>
           <div class="row">
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/responsabilidade.png')}}" style="font-size:100px">  
+              <img src="{{('/assets/img/responsabilidade.png')}}" >  
             </div>
             <div class="col-lg-4 text-center">
               <img src="{{('/assets/img/terra.png')}}">  
@@ -214,7 +213,7 @@
           </div>
           <div class="row">
             <div class="col-lg-4 text-center">
-              <img src="{{('/assets/img/ecologia.png')}}" style="text-align:center" >
+              <img src="{{('/assets/img/about.png')}}" style="text-align:center" >
             </div>
             <div class="col-lg-4 text-center">
               <img src="{{('/assets/img/missao.png')}}" style="text-align:center" >
@@ -222,7 +221,7 @@
             <div class="col-lg-4 text-center">
               <img src="{{('/assets/img/oportunidade.png')}}" style="text-align:center" >
             </div>
-          </div><br><br><br>
+          </div><br/><br/><br/><br/><br/>
         </div>
       </div>
     </section>
@@ -1027,23 +1026,69 @@
                   <div class="col-lg-4" >
                     <div class="">
                       <a href="#">
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center text-center">
-                      <h3><strong>Panaquantira</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
-                    </div>
+                        <h3><strong>Panaquantira</strong>
+                          <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        </h3><hr>
+                        <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPanaquatira">
+                          <span class="glyphicon glyphicon-th"></span><br/>
+                          Galeria
+                        </a>
+                      </div>
                   </div>  
                   <div class="col-lg-4" >
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+                        <img src="{{('/assets/img/img97.jpg')}}" alt="Lights"  class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Guarapiranga</strong></h3><hr>
-                      <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <h3 class="text-center"><strong>Guarapiranga</strong>
+                          <a href="https://goo.gl/maps/b9RpmmYo6q8P9qHK7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        </h3><hr>
+                        <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaGuarapiranga">
+                          <span class="glyphicon glyphicon-th"></span><br/>
+                          Galeria
+                        </a>
+                    </div><br/>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img87.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Aribual</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaAribual">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img99.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Moça</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaMoca">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
                     </div><br/>
                   </div>
                   <div class="col-lg-4">
@@ -1053,50 +1098,82 @@
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Aribual</strong>
+                      <h3 class="text-center"><strong>Unicamping</strong>
                         <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
-                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalDiaDaArvore">
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaUnicamping">
                         <span class="glyphicon glyphicon-th"></span><br/>
                         Galeria
                       </a>
+                    </div><br/>
+                  </div> 
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img107.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
                     </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta da Jaraúna</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaJarauna">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
                   </div>
                 </div>
               </div>
+
               <div class="item">
                 <div class="row">
-                  <div class="col-lg-4" >
+                  <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img104.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Moça</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
+                      <h3 class="text-center"><strong>Boa viagem</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaBoaViagem">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img111.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Jararaí</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDoJararai">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
                     </div><br/>
                   </div> 
-                  <div class="col-lg-4" >
+                  <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img117.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Unicamping</strong></h3><hr>
-                      <a href="https://goo.gl/maps/kQkCgFbffiDCEoqu7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      <h3 class="text-center"><strong>São Raimundo</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiDoSaoRaimundo">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta da Jaraúna</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div><br/>
                   </div> 
                 </div>
@@ -1107,110 +1184,49 @@
                   <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img120.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Boa Viagem</strong></h3><hr>
-                      <a href="https://goo.gl/maps/q7xTx5mcxsqAJChNA" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      <h3 class="text-center"><strong>Porto da Campina</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPortoDaCampina">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Jararaí</strong></h3><hr>
-                      <a href="https://goo.gl/maps/JAX8Btq4Jyo7K4tz5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>São Raimundo</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div><br/>
-                  </div> 
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="row">
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Porto da campina</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
-                    </div>
                   </div> 
                   <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img123.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Porto do Barbosa</strong></h3><hr>
-                      <a href="https://goo.gl/maps/V7NeXnfYAo83DcMS6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights"  class="zoom">
+                      <h3 class="text-center"><strong>Porto da Barbosa</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPortoDoBarbosa">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Praia de banho</strong></h3><hr>
-                      <a href="https://goo.gl/maps/xpnFUjzP6gSzypZz9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
                     </div><br/>
-                  </div> 
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="row">
-                  <div class="col-lg-4" >
+                  </div>
+                  <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Caúra</strong></h3><hr>
-                      <a href="https://goo.gl/maps/22BZhrLFcmggikjF7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a> 
-                    </div>
-                  </div> 
-                  <div class="col-md-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      <h3 class="text-center"><strong>Praia de Banho</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDeBanho">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta Verde</strong></h3><hr>
-                      <a href="https://goo.gl/maps/mwQiCXk2146yKpzg8" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-md-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
-                      </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Ponta da Madalena</strong></h3><hr>
-                      <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div><br/>
                   </div> 
                 </div>
@@ -1221,25 +1237,88 @@
                   <div class="col-lg-4">
                     <div class="">
                       <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                        <img src="{{('/assets/img/img131.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                       </a>
                     </div>
                     <div class="caption text-center">
-                      <h3 class="text-center"><strong>Meio</strong></h3><hr> 
-                      <a href="https://goo.gl/maps/xmeTSej78AMsdFvQ6" target="blank"><span class="glyphicon glyphicon-map-marker " style="text-align:center;font-size:22px"></span></a>
-                    </div>
-                  </div> 
-                  <div class="col-md-4" >
-                    <div class="">
-                      <a href="#" >
-                        <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom">
+                      <h3 class="text-center"><strong>Caúra</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDoCaura">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
                       </a>
-                    </div>
-                    <div class="caption text-center">
-                      <h3 class="text-center"><strong>Araçagi</strong></h3><hr>
-                      <a href="https://goo.gl/maps/2y8wmjp89adu5JYR8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                     </div><br/>
                   </div> 
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img127.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta Verde</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaPontaVerde">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div> 
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Ponta da Madalena</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPontaDaMadalena">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Meio</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaMeio">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div>  
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="#" >
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      </a>
+                    </div>
+                    <div class="caption text-center">
+                      <h3 class="text-center"><strong>Araçagy</strong>
+                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                      </h3><hr>
+                      <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaAracagy">
+                        <span class="glyphicon glyphicon-th"></span><br/>
+                        Galeria
+                      </a>
+                    </div><br/>
+                  </div>  
                 </div>
               </div>
               <!-- Indicators -->
@@ -1250,13 +1329,690 @@
                 <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="3"></li>
                 <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="4"></li>
                 <li data-target="#myCarousepraias" style="background-color:#77cc6d;" data-slide-to="5"></li>
-              </ol><br/><br/><br/><br/>
+              </ol><br/><br/><br/>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!---->
+
+    <!--a seciotn abaixo exibirá os modais referente a cada praia-->
+    <!---->
+    <section>
+      <div class="modal fade" id="myModalPraiaGuarapiranga" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia de Guarapiranga</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselGuarapiranga" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselGuarapiranga" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselGuarapiranga" data-slide-to="1"></li>
+                    <li data-target="#myCarouselGuarapiranga" data-slide-to="2"></li>
+                    <li data-target="#myCarouselGuarapiranga" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img95.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img96.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img97.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img98.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselGuarapiranga" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselGuarapiranga" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaAribual" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia do Aribual</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselAribual" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselAribual" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselAribual" data-slide-to="1"></li>
+                    <li data-target="#myCarouselAribual" data-slide-to="2"></li>
+                    <li data-target="#myCarouselAribual" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img87.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img88.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img89.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselAribual" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselAribual" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDoCaura" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia do Caúra</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselPraiaDoCaura" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselPraiaDoCaura" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselPraiaDoCaura" data-slide-to="1"></li>
+                    <li data-target="#myCarouselPraiaDoCaura" data-slide-to="2"></li>
+                    <li data-target="#myCarouselPraiaDoCaura" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img131.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img132.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img133.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img134.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselPraiaDoCaura" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselPraiaDoCaura" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDaPontaVerde" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia de Guarapiranga</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselPontaVerde" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselPontaVerde" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselPontaVerde" data-slide-to="1"></li>
+                    <li data-target="#myCarouselPontaVerde" data-slide-to="2"></li>
+                    <li data-target="#myCarouselPontaVerde" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img127.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img128.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img129.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img130.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselPontaVerde" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselPontaVerde" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaPortoDoBarbosa" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia Porto do Barbosa</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselPortoDoBarbosa" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselPortoDoBarbosa" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselPortoDoBarbosa" data-slide-to="1"></li>
+                    <li data-target="#myCarouselPortoDoBarbosa" data-slide-to="2"></li>
+                    <li data-target="#myCarouselPortoDoBarbosa" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img123.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img124.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img125.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img126.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselPortoDoBarbosa" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselPortoDoBarbosa" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPortoDaCampina" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Porto da Campina</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselPortoDaCampina" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselPortoDaCampina" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselPortoDaCampina" data-slide-to="1"></li>
+                    <li data-target="#myCarouselPortoDaCampina" data-slide-to="2"></li>
+                    <li data-target="#myCarouselPortoDaCampina" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img120.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img122.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img121.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img119.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselPortoDaCampina" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselPortoDaCampina" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiDoSaoRaimundo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia do São Raimundo</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselSaoRaimundo" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselSaoRaimundo" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselSaoRaimundo" data-slide-to="1"></li>
+                    <li data-target="#myCarouselSaoRaimundo" data-slide-to="2"></li>
+                    <li data-target="#myCarouselSaoRaimundo" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img115.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img116.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img117.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img118.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselSaoRaimundo" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselSaoRaimundo" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDoJararai" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia do Jararaí</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselJararai" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselJararai" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselJararai" data-slide-to="1"></li>
+                    <li data-target="#myCarouselJararai" data-slide-to="2"></li>
+                    <li data-target="#myCarouselJararai" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img111.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img112.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img113.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img114.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselJararai" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselJararai" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDaJarauna" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia Ponta da Jaraúna</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselJarauna" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselJarauna" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselJarauna" data-slide-to="1"></li>
+                    <li data-target="#myCarouselJarauna" data-slide-to="2"></li>
+                    <li data-target="#myCarouselJarauna" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img107.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img108.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img109.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img110.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselJarauna" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselJarauna" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDaBoaViagem" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia da Boa Viagem</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselBoaViagem" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselBoaViagem" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselBoaViagem" data-slide-to="1"></li>
+                    <li data-target="#myCarouselBoaViagem" data-slide-to="2"></li>
+                    <li data-target="#myCarouselBoaViagem" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img104.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img105.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img103.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img106.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselBoaViagem" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselBoaViagem" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaDaMoca" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Praia da Moça</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselMoca" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselMoca" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselMoca" data-slide-to="1"></li>
+                    <li data-target="#myCarouselMoca" data-slide-to="2"></li>
+                    <li data-target="#myCarouselMoca" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img99.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img100.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img101.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img102.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselMoca" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselMoca" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModalPraiaPortoDaCampina" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header"><br/><br/>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Porto da Campina</h4>
+            </div>
+            <div class="modal-body">
+              <!--inicio carrossel-->
+              <div id="myCarouselCampina" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarouselCampina" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouselCampina" data-slide-to="1"></li>
+                    <li data-target="#myCarouselCampina" data-slide-to="2"></li>
+                    <li data-target="#myCarouselCampina" data-slide-to="3"></li>
+                  </ol>
+                    <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img91.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img92.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img93.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                    <div class="item">
+                      <div class="col-lg-12">                                       
+                        <img src="{{('/assets/img/img94.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                      </div>      
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarouselCampina" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarouselCampina" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <!--fim carrossel-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----->
     
     <!---->
     <section class="anime">
@@ -1271,7 +2027,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCamboas" id="tituloCuriosidade">Camboas de São José de Ribamar<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCamboas" id="tituloCuriosidade">Camboas de São José de Ribamar<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></span></button>
                 <div id="demoCamboas" class="collapse">
                   <p id="textoCuriosidade">
                     Estão localizadas na praia da Ponta Verde, que são currais construídos de pedras para captura de peixes. Essas camboas foram feitas pelos índios gamelas que habitaram em São José de Ribamar no século XVII.
@@ -1286,7 +2042,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCacimba" id="tituloCuriosidade">Cacimbas de água doce<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCacimba" id="tituloCuriosidade">Cacimbas de água doce<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></span></button>
                 <div id="demoCacimba" class="collapse">
                   <p id="textoCuriosidade">
                     As cacimbas de água doce são cova ou poço que recebe a água pluvial filtrada pelos terrenos circunjacentes e são utilizadas pela população. São Típicas do nordeste brasileiro, em nosso município as cacimbas são encontradas em duas praias de São José Ribamar: Praia da Sede e Praia da Moça.
@@ -1301,7 +2057,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoFalesia" id="tituloCuriosidade">Falésias<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoFalesia" id="tituloCuriosidade">Falésias<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></span></button>
                   <div id="demoFalesia" class="collapse">
                     <p id="textoCuriosidade">
                       As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.
@@ -1319,7 +2075,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCorredor" id="tituloCuriosidade">Corredor das aves migratórias<br/>Veja <span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCorredor" id="tituloCuriosidade">Corredor das aves migratórias<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></span></button>
                   <div id="demoCorredor" class="collapse">
                     <p id="textoCuriosidade">
                         O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem.  
@@ -1334,7 +2090,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoNinhal" id="tituloCuriosidade">Ninhal da Campina<br/>Veja <span class="glyphicon glyphicon-plus"></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoNinhal" id="tituloCuriosidade">Ninhal da Campina<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></button>
                   <div id="demoNinhal" class="collapse">
                     <p id="textoCuriosidade">
                       O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. 
@@ -1349,7 +2105,7 @@
                 </a>
               </div><br/>
               <div class="caption text-center text-center">
-                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoSitio" id="tituloCuriosidade">Sítio Arqueológico<br/>Veja <span class="glyphicon glyphicon-plus"></button>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoSitio" id="tituloCuriosidade">Sítio Arqueológico<br/>Veja mais...<span class="glyphicon glyphicon-menu-down"></button>
                   <div id="demoSitio" class="collapse">
                     <p  id="textoCuriosidade">
                       O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições.
@@ -1359,13 +2115,41 @@
             </div> 
           </div>
         </div>
+      </div><br/><br/>
+    </section>
+
+    <section>
+      <div class="container-fluid" id="contatos">
+        <div class="container">
+          <h2><b>Contatos</b></h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Entre em contato.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Maranhão, MA</p>
+              <p><span class="glyphicon glyphicon-phone-alt"></span> 98 3224-0107</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> semampmsjr@gmail</p>
+            </div>
+            <div class="col-sm-7">
+              <form action="" method="">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-12">
+                  <textarea class="form-control" id="mensagem" name="mensagem" placeholder="mensagem" rows="5"></textarea><br>
+                  <button class="btn btn-default pull-right" type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div><br/><br/><br/><br/><br/><br/>
+        </div>
       </div>
     </section>
-    <!---->
     <!--na parte acima é inserido o conteudo que vai ser exibido no corpo da pagina-->
 
-    <!--na parte abaixo fica o rodapa da pagina-->
-    
+    <!--na parte abaixo fica o rodapa da pagina--> 
     <footer>
       <div class="container-fluid">
         <div class="container">
@@ -1381,12 +2165,13 @@
                 <li>Prais</li>
                 <li>Palestras Educativas</li>   
                 <li>Semana Mundial do Meio Ambiente</li>   
-                <li>Oficinas</li>           
+                <li>Oficinas</li>  
+                <li>Projetos</li>         
               </ul>
             </div>
             <div class="col-lg-4 text-center" id="borda">
               <h3>LOCALIZAÇÃO</h3>
-              <p>O Ceará o Fotos, Encontra-se Localizado na Rua Manoel José Maia, nº 39, São José de Ribamar / Cep 65110-000.</p><br>
+              <p>A Secretaria Municipal do Ambiente - SEMAM, Encontra-se localizada na praça São José, nº 65, centro, galeria José de Alencar - São José de Ribamar / Cep 65110-000.</p><br>
               <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3985.829588328001!2d-44.0578895352439!3d-2.5622097981330714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x7f6bcde2d47b959%3A0xb948650e423c8221!2sGaleria%20Jos%C3%A9%20De%20Alencar%20-%20Av.%20Gon%C3%A7alves%20Dias%2C%20309%20-%20Moropia%2C%20S%C3%A3o%20Jos%C3%A9%20de%20Ribamar%20-%20MA%2C%2065110-000!3m2!1d-2.5611843999999997!2d-44.0555666!5e0!3m2!1spt-BR!2sbr!4v1599160393192!5m2!1spt-BR!2sbr" width="350" height="125" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="col-lg-4  links">
