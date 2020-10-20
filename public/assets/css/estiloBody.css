@@ -1,153 +1,170 @@
 .anime {
 	opacity: 0;
 	transform: translate3d(-90px,0,0);
-    transition: .90s;
-    
+  transition: .90s; 
 }
 .anime-start {
 	opacity: 1;
 	transform: translate3d(0,0,0);
 }
-
 .item img{
   border: 1px solid #77cc6d;
   width: 100%;
   border-radius: 5px;
 }
-
 .item p{
   color: #77cc6d;
   font-family:Cambria;
   font-size: 22px;
   font-weight: bolder;
-
 }
-
 #carouselSlide h3{
   color:#77cc6d;
 }
-
 #plataforma{
-  background-color:#64a0d4;
-  border:none;
+  background-color:#FFF;
+  border: none;
 }
-
-p{
-  font-size:17px;
-  color:#FFF;
-  text-align:justify;
+.tituloVerde{
+  color:#77cc6d;
   font-family:Cambria;
 }
+.textoVerde{
+  color:#77cc6d;
+  font-family:Cambria;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: justify;
+  word-spacing: -2px;
+}
 
+#imgPlataforma{
+  margin-top: 30px;
+  margin-bottom: 12%;
+  border: none;
+}
+#imgPlataforma img{
+  width: 30%; 
+}
 .text-center img{
   text-align:center;
   width:80px;
   border: none;
 }
-
 #departamento{
-  background-color:#77cc6d;
-  border:none;
+  background-color:#FFF;
+  border: none;
 }
-
+.subTituloVerde{
+  color: #77cc6d;
+  font-family:Cambria;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#imgDepartamento{
+  margin-top: 30px;
+  margin-bottom: 12%;
+  border: none;
+}
+#imgDepartamento img{
+  width: 30%; 
+}
 #acoes{
-  background-color:#64a0d4;
+  background-color:#FFF;
 }
-
-h4{
-  color:#64a0d4;
-  font-size:15px;
+.subTitulooAcoes{
+  color: #FFF;
+  font-family:Cambria;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.textoBrancoAcoes{
+  color:#FFF;
+  font-family:sans-serif;
+  font-size: 17px;
+  text-align: justify;
 }
 .thumbnail{
-  background-color: #64a0d4;
+  background-color: #77cc6d;
   border:none;
 }
-
 .thumbnail img{ 
-  border: 1px solid #FFF;
+  border: 0px solid #FFF;
   border-radius: 5px;
 }
-
 .thumbnail h4{
   font-size:18px;
   color: #FFF;
   padding: 10px;
   background-color: #77cc6d;
-  border-radius: 10px;
+  border-radius: 1px;
 }
-
 .modal-title{
   font-size: 23px;
+  color: #77cc6d;
+  font-family:Cambria;
+  font-weight: bolder;
 }
 .modal-footer p{
   font-size:17px;
-  color:#64a0d4;
+  color:#77cc6d;
   text-align:justify;
   font-family:Cambria;
 }
-
+.imgModal img{
+  height: 420px;
+}
 #projetos{
   color:#FFF;
   border:none;
   background-color:#FFF;
 }
 
-.proj{
-  color:#64a0d4;
-}
-
-#titulo{
-  color:#64a0d4;
+#subTituloProjeto{
+  color:#77cc6d;
   font-size: 22px;
-}
-#texto{
-  font-size:17px;
-  color:#64a0d4;
-  text-align:justify;
   font-family:Cambria;
 }
-
 .col-lg-8 img{
   border-radius: 5px;
-  border:1px solid #64a0d4;
+  border:1px solid #77cc6d;
 }
-
 #praias{
  color:#FFF;
  border:none;
- background-color:#77cc6d;
- 
-
+ background-color:#FFF;
+}
+.caption h3{
+  color:#77cc6d;
+  font-family:Cambria;
 }
 .caption a{
   color:#FFF;
-  
+  font-family:Cambria;
 }
-
 #curiosidades{
   background-color:#FFF;
-}
-
-.curiosidade{
-  color:#64a0d4;
 }
 .col-lg-offset-1 img{
   width: 100%;
   border-radius: 10px;
 }
-
-#tituloCuriosidade{
-  color:#FFF;
-  text-align: center;
-  font-size: 15px;
-}
-#textoCuriosidade{
-  text-align: justify;
-  color:#64a0d4;
-  font-family:Cambria;
-  font-weight: bolder;
-}
-#contatos{
-  background-color: #64a0d4;
+.nav-tabs li a {
   color: #FFF;
+  font-family:Cambria;
+  font-size: 19px;
+  font-weight: bolder;
+  background-color: #77cc6d;
+}
+.nav-tabs li a:hover {
+  color: #FFF;
+  font-family:Cambria;
+  font-size: 19px;
+  font-weight: bolder;
+  background-color: #64a0d4;
+}
+.tab-content img{
+  width: 100%;
+  border-radius: 5px;
+  height: 235px;
 }

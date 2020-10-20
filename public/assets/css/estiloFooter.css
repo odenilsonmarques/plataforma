@@ -1,12 +1,10 @@
 footer {
     margin-top: 50px;
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     text-align: justify;
     font-family:sans-serif;
-    height: 350px;
-    background-color:#64a0d4;
- 
+    background-color:#77cc6d;
 }
 #borda{
     border-right: 1px solid #fff ;
@@ -33,13 +31,10 @@ footer  a{
     font-size: 14px;      
 }
 .informacao{
-   
-    
     text-align: center;
     text-decoration: none;
     font-size: 16px;
 }
-
 .links a{
     text-decoration: none;
     color: #fff;
