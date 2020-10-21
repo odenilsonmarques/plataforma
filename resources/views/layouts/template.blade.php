@@ -197,14 +197,14 @@
             <div class="col-sm-4 text-center">
               <h3 class="subTituloVerde"><b>Missão</b></h2>
                 <p class="textoVerde">
-                    Temos a missão de proteger, conservar e recuperar o meio ambiente, promovendo o desenvolvimento sustentável com responsabilidade socioambiental, 
-                    incentivando ações e programas que visam à preservação e conservação de recursos naturais e qualidade de vida, tendo a Educação Ambiental como forma de mudança comportamental da população acerca da preservação do ambiente.
+                    Temos a missão de proteger, conservar e recuperar o meio ambiente, incentivando o desenvolvimento 
+                    com responsabilidade socioambiental, ações e programas que visam à preservação e conservação de recursos naturais e qualidade de vida, tendo a Educação Ambiental como forma de mudança comportamental da população acerca da preservação do ambiente.
                 </p>
             </div>
             <div class="col-sm-4 text-center">
               <h3 class="subTituloVerde"><b>Visão</b></h2>
                 <p class="textoVerde">
-                  Hoje a Secretaria Municipal do Ambiente- SEMAM é formada por uma equipe de Técnicos, Analista, Fiscais, Setor Jurídico, 
+                  Hoje a Secretaria Municipal do Ambiente-SEMAM é formada por uma equipe de Técnicos, Analista, Fiscais, Setor Jurídico, 
                   que procuram oferecer suporte na área de Controle, Fiscalização e Proteção Ambiental, almeja ser reconhecida como modelo 
                   de Secretaria de Meio Ambiente, no que diz respeito às ações socioambientais e na promoção das políticas públicas voltadas à 
                   preservação de recursos naturais e desenvolvimento sustentável.
@@ -926,7 +926,7 @@
                 <div class="row">
                   <div class="col-lg-4" >
                     <div class="">
-                      <img src="{{('/assets/img/praia-panaquatira.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                      <img src="{{('/assets/img/img150.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                     </div>
                     <div class="caption text-center text-center">
                         <h3><strong>Panaquantira</strong>
@@ -1160,7 +1160,7 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="">
-                        <img src="{{('/assets/img/img86.jpg')}}" alt="Lights" class="zoom" style="height:250px">
+                        <img src="{{('/assets/img/img152.jpg')}}" alt="Lights" class="zoom" style="height:250px">
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Meio</strong>
@@ -1204,6 +1204,95 @@
     </section>
     <!--a seciotn abaixo exibirá os modais referente a cada praia-->
     <section>
+      <div class="modal fade" id="myModalPraiaPanaquatira" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header"><br/><br/>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center">Praia do Panaquantira</h4>
+              </div>
+              <div class="modal-body">
+                <!--inicio carrossel-->
+                <div id="myCarouselPanaquatira" class="carousel slide" data-ride="carousel" >
+                  <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarouselPanaquatira" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarouselPanaquatira" data-slide-to="1"></li>
+                    </ol>
+                      <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="col-lg-12">                                       
+                          <img src="{{('/assets/img/img150.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                        </div>  
+                      </div>
+                      <div class="item">
+                        <div class="col-lg-12">                                       
+                          <img src="{{('/assets/img/img151.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                        </div>      
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarouselPanaquatira" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarouselPanaquatira" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <!--fim carrossel-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModalPraiaMeio" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header"><br/><br/>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center">Praia do Meio</h4>
+              </div>
+              <div class="modal-body">
+                <!--inicio carrossel-->
+                <div id="myCarouselMeio" class="carousel slide" data-ride="carousel" >
+                  <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarouselMeio" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarouselMeio" data-slide-to="1"></li>
+                    </ol>
+                      <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="col-lg-12">                                       
+                          <img src="{{('/assets/img/img152.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                        </div>  
+                      </div>
+                      <div class="item">
+                        <div class="col-lg-12">                                       
+                          <img src="{{('/assets/img/img153.jpg')}}" alt="Lights" class="img-responsive" style="height: 500px">
+                        </div>      
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarouselMeio" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarouselMeio" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <!--fim carrossel-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       <div class="modal fade" id="myModalPraiaAracagy" role="dialog">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -1930,7 +2019,7 @@
               <li class="active"><a data-toggle="tab" href="#camboas">Camboas</a></li>
               <li><a data-toggle="tab" href="#cacimbas">Cacimbas</a></li>
               <li><a data-toggle="tab" href="#falesias">Falésias</a></li>
-              <li><a data-toggle="tab" href="#corredorDeAves">Corredor das aves migratórias</a></li>
+              <li><a data-toggle="tab" href="#corredorDeAves">Corredor das Aves Migratórias</a></li>
               <li><a data-toggle="tab" href="#ninhalCampina">Ninhal da Campina</a></li>
               <li><a data-toggle="tab" href="#sitioArqueologico">Sítio Arqueológico</a></li>
             </ul>
@@ -1973,7 +2062,7 @@
                 </div>
               </div>
               <div id="falesias" class="tab-pane fade">
-                <h3 class="tituloVerde"><b>falésias</b></h3>
+                <h3 class="tituloVerde"><b>Falésias</b></h3>
                 <p  class="textoVerde">As falésias são formações litorâneas que é produzida por processos erosivos naturais, relacionado a oscilações do nível do mar e mudanças nas condições climáticas. A praia da ponta verde é formada por paredões esculpidos pela ação da água do mar e do vento formando as falésias com belezas magnificas.</p>
                 <div class="row">
                   <div class="col-lg-3">
@@ -1996,11 +2085,11 @@
                 <p class="textoVerde">O corredor de aves migratórias localiza-se na Praia da Ponta da Madalena situada no final da Praia do Panaquatira, as aves migratórias que durante um determinado período do ano migram para o Brasil, vindo de outros países como dos Estados Unidos, Canadá e Alasca, durante a viagem ao Brasil as aves encostam na  Praia da Ponta da Madalena para alimentação, descanso e reprodução. E em um determinado período elas seguem viagem para outras regiões do Maranhão e depois retornam para seu país de origem. </p>
               </div>
               <div id="ninhalCampina" class="tab-pane fade">
-                <h3 class="tituloVerde"><b>Ninhal da Campina</b></h3>
+                <h3 class="tituloVerde"><b>Ninhal da campina</b></h3>
                 <p class="textoVerde">O ninhal encontra-se no manguezal no bairro da Campina no Município de São José de Ribamar. Os guarás utilizam o manguezal mais isolado para fazer os ninhos e aproveitam os galhos mais altos para escaparem da ação dos predadores. A reprodução dos guarás ocorre em colônias e vai de julho a setembro, durante os outros meses os ninhais permanecem vazios no período do dia, após o pôr do sol, os guarás retornam aos ninhais para dormirem e encherem de cores o manguezal. </p>
               </div>
               <div id="sitioArqueologico" class="tab-pane fade">
-                <h3  class="tituloVerde"><b>Sítio Arqueológico</b></h3>
+                <h3  class="tituloVerde"><b>Sítio arqueológico</b></h3>
                 <p class="textoVerde">O sítio arqueológico é localizado no pólo turístico de Panaquatira. No local, existem vestígios de uma população denominada "Sambaqui", que habitou o lugar entre 5 mil e 8 mil anos atrás. O local está sendo estudado para a construção de um museu arqueológico na área para garantir a preservação do patrimônio histórico, que seria o primeiro do Brasil nessas condições. </p>
                 <div class="row">
                   <div class="col-lg-3">

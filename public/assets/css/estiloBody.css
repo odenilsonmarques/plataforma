@@ -35,7 +35,6 @@
   font-size: 18px;
   font-weight: bolder;
   text-align: justify;
-  word-spacing: -2px;
 }
 
 #imgPlataforma{
@@ -145,6 +144,11 @@
 #curiosidades{
   background-color:#FFF;
 }
+.nav-tabs li.active a {
+  color:#fff !important;
+  background-color: #64a0d4 !important;
+}
+
 .col-lg-offset-1 img{
   width: 100%;
   border-radius: 10px;
