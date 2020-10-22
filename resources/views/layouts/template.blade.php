@@ -311,7 +311,7 @@
             </div>
             <div class="col-lg-4" >
               <div class="thumbnail">
-                <img src="{{('/assets/img/img26.jpg')}}" class="img-responsive"  style="height:200px">
+                <img src="{{('/assets/img/img49.jpg')}}" class="img-responsive"  style="height:200px">
                 <div class="caption text-center">
                   <h4 class="text-center subTituloAcoes"><strong>Palestras Educativas</strong></h4>
                   <p class="textoBrancoAcoes">
@@ -930,7 +930,7 @@
                     </div>
                     <div class="caption text-center text-center">
                         <h3><strong>Panaquantira</strong>
-                          <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                          <a href="https://goo.gl/maps/Xq9fxzu21itmqimr7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                         </h3><hr>
                         <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPanaquatira">
                           <span class="glyphicon glyphicon-th"></span><br/>
@@ -958,7 +958,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Aribual</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://olhares.com/praia-do-aribual-sao-jose-de-ribamar-ma-foto3655758.html" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaAribual">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -976,7 +976,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Moça</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/ixAVHoNTtGgBmdi2A" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaMoca">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -990,7 +990,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Unicamping</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/V9siy1BAmddwwcFJ8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaUnicamping">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1004,7 +1004,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Ponta da Jaraúna</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://www.google.com/maps/search/praia+ponta+da+jarauna/@25.5247326,82.3756904,14z/data=!3m1!4b1" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaJarauna">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1023,7 +1023,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Boa viagem</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/CfUbQt2JCy2Drc2U7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaBoaViagem">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1037,7 +1037,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Jararaí</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/WtE3CDmgYmaZrG1v7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDoJararai">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1051,7 +1051,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>São Raimundo</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/3UxqmrEmq2dxKgBE9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiDoSaoRaimundo">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1070,7 +1070,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Porto da Campina</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/3UxqmrEmq2dxKgBE9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPortoDaCampina">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1084,7 +1084,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Porto da Barbosa</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/3UxqmrEmq2dxKgBE9" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPortoDoBarbosa">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1098,7 +1098,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Praia de Banho</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/ychEkN7ZqTcmE5RK8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDeBanho">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1117,7 +1117,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Caúra</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/WPeta15vckWcBe3c8" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDoCaura">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1131,7 +1131,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Ponta Verde</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/pzax2dV4RMcWwEM8A" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaDaPontaVerde">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1145,7 +1145,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Ponta da Madalena</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/MkHiepZHrxdAGMft6" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaPontaDaMadalena">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1164,7 +1164,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Meio</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/6RMkGETh2oQEmBqt5" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaMeio">
                         <span class="glyphicon glyphicon-th"></span><br/>
@@ -1178,7 +1178,7 @@
                     </div>
                     <div class="caption text-center">
                       <h3 class="text-center"><strong>Araçagy</strong>
-                        <a href="https://goo.gl/maps/Ge8TM5S9KG7M3EVh7" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
+                        <a href="https://goo.gl/maps/Zd4iGWMmQCubuDmu6" target="blank"><span class="glyphicon glyphicon-map-marker" style="text-align:center;font-size:22px"></span></a>
                       </h3><hr>
                       <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModalPraiaAracagy">
                         <span class="glyphicon glyphicon-th"></span><br/>
